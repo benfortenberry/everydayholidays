@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{date}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+  <ion-card *ngFor="let h of data?.holidays | today ">
+    <img src="https://source.unsplash.com/{{h.keyword}}">
+
+    <ion-card-header text-wrap>
+      <h2>{{h.name}}</h2>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>{{h.blurb}}</p>
+    </ion-card-content>
+
+
+
+  </ion-card>
+
+
+</ion-content>

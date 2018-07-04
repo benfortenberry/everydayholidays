@@ -1,0 +1,8 @@
+{
+  "name": "HolidayApp",
+  "app_id": "6e2fd709",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
