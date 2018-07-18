@@ -10,6 +10,7 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { DetailPage } from '../pages/detail/detail';
 import { Calendar } from '@ionic-native/calendar';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -47,8 +48,9 @@ import { TodayPipe } from '../pipes/today/today';
   providers: [
     StatusBar,
     SplashScreen,
-
+    SocialSharing,
     Calendar,
+    StatusBar,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
     TimeDateServiceProvider
   ]

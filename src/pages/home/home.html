@@ -1,22 +1,50 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="secondary">
     <ion-title>{{date}}</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content color="light">
 
 
-  <ion-card *ngFor="let h of data?.holidays | today ">
-    <img src="https://source.unsplash.com/{{h.keyword}}">
+  <ion-card color="danger" *ngFor="let h of data?.holidays | today ">
 
-    <ion-card-header text-wrap>
-      <h2>{{h.name}}</h2>
-    </ion-card-header>
 
-    <ion-card-content>
-      <p>{{h.blurb}}</p>
-    </ion-card-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-12 col-sm>
+          <img src="assets/imgs/{{h.keyword}}.jpg" />
+
+        </ion-col>
+        <ion-col col-12 col-sm>
+          <ion-card-header text-wrap>
+            <h2>{{h.name}}</h2>
+            <br />
+            <p>{{h.blurb}}</p>
+          </ion-card-header>
+        </ion-col>
+        <ion-col col-12 col-sm>
+          <ion-card-content>
+
+            <ion-buttons>
+              <button ion-button small round icon-start (click)="share(h)">
+                <ion-icon name="share"></ion-icon>
+                &nbsp;Share</button>
+
+              <button color="orange" ion-button small round icon-start (click)="addToCalendar(h)">
+                <ion-icon name="add-circle"></ion-icon>
+                &nbsp;Add Calendar</button>
+            </ion-buttons>
+
+          </ion-card-content>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+
+
+
 
 
 

@@ -1,22 +1,30 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="secondary">
     <ion-title>
       All Holidays
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+
+<ion-content>
 
 
 
-  <ion-item-divider color="light">January</ion-item-divider>
   <ion-list>
-    <button text-wrap ion-item *ngFor="let h of data?.holidays" (click)="presentProfileModal(h)">
 
-      <h2>{{h.name}}</h2>
-      <p>{{h.date}}</p>
-    </button>
+    <div *ngFor="let h of data?.holidays">
+      <ion-item-divider *ngIf="!h.date" color="light">{{h.name}}</ion-item-divider>
+      <button *ngIf="h.date" color="danger" text-wrap ion-item (click)="presentProfileModal(h) ">
+        <!-- <img src="assets/imgs/{{h.keyword}}.jpg" /> -->
+
+        <h2>{{h.name}}</h2>
+        <!-- <p>{{h.blurb}}</p> -->
+        <p>{{h.date}}</p>
+      </button>
+    </div>
+
+
 
   </ion-list>
 

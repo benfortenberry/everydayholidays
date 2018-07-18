@@ -3,13 +3,9 @@ import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angul
 import { TimeDateServiceProvider } from './../../providers/time-date-service/time-date-service';
 import { Calendar } from '@ionic-native/calendar';
 import * as moment from 'moment';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
-/**
- * Generated class for the DetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+
 
 @IonicPage()
 @Component({
@@ -23,11 +19,17 @@ export class DetailPage {
 
   data: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public tsProvider: TimeDateServiceProvider, private view: ViewController, private calendar: Calendar) {
+  constructor(public navCtrl: NavController,
+    public navParams: NavParams, public tsProvider: TimeDateServiceProvider, private view: ViewController, private socialSharing: SocialSharing, private calendar: Calendar) {
+
+
+
     var holiday = navParams.get('holiday')
     this.hName = holiday.name;
     this.hDate = holiday.date;
     this.getData();
+
+
 
   }
 
@@ -45,20 +47,26 @@ export class DetailPage {
     this.view.dismiss();
   }
 
+
+  share(h) {
+    this.socialSharing.share("Today is " + h.name + "!", "Holidays", null, null)
+  }
+
   addToCalendar(h) {
     var builtDate = h.date + " " + moment().year();
-    console.log('builtdate', builtDate)
+
+
     var momentizedDate = moment(builtDate, 'MMMM D YYYY');
-    console.log('momentized date', momentizedDate);
-    console.log(momentizedDate.isBefore(moment()))
+
     if (momentizedDate.isBefore(moment())) {
-      console.log('in the if')
-      momentizedDate = momentizedDate.add(1, 'y');
-      momentizedDate.add(1, 'y');
-      console.log(momentizedDate)
+
+      momentizedDate = moment(builtDate, 'MMMM D YYYY').add(1, 'y')
+
     }
 
-    // console.log(h)
+    console.log(momentizedDate.toString())
+    this.calendar.createEventInteractively(this.hName, '', '', momentizedDate.toDate(), momentizedDate.add(1, 'd').toDate());
+
   }
 
 

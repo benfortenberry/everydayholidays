@@ -21,7 +21,7 @@ $app-direction: ltr;
 // to match your app's branding. Ionic uses a Sass map of
 // colors so you can add, rename and remove colors as needed.
 // The "primary" color is the only required color in the map.
-$colors: ( primary: #FF1654, secondary: #32db64, danger: #f53d3d, light: #f4f4f4, dark: blue);
+$colors: ( primary: #F0433A, secondary: #260F25, danger: #FDFFFC, light: #820333, dark: blue, orange:#C9283E);
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
@@ -37,7 +37,7 @@ $colors: ( primary: #FF1654, secondary: #32db64, danger: #f53d3d, light: #f4f4f4
 // then be future customized. This import comes last
 // so that the above variables are used and Ionic's
 // default are overridden.
-@import "ionic.theme.default";
+@import "ionic.theme.dark";
 // Ionicons
 // --------------------------------------------------
 // The premium icon font for Ionic. For more info, please see:
@@ -47,6 +47,6 @@ $colors: ( primary: #FF1654, secondary: #32db64, danger: #f53d3d, light: #f4f4f4
 // --------------------------------------------------
 @import "roboto";
 @import "noto-sans";
-$background-color: #247BA0 !default;
-$background-ios-color: #247BA0 !default;
-$background-md-color: #247BA0 !default;
+$background-color: #540032 !default;
+$background-ios-color: #540032 !default;
+$background-md-color: #540032 !default;

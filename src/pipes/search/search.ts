@@ -1,23 +1,25 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-/**
- * Generated class for the SearchPipe pipe.
- *
- * See https://angular.io/api/core/Pipe for more info on Angular Pipes.
- */
+
 @Pipe({
   name: 'search',
 })
 export class SearchPipe implements PipeTransform {
-  /**
-   * Takes a value and makes it lowercase.
-   */
-  transform(items: any[], terms: string): any[] {
+
+  transform(items: any[], terms: string, exact: boolean): any[] {
     if (!items) return [];
     if (!terms) return items;
+    console
     terms = terms.toLowerCase();
     return items.filter(it => {
-      return it.name.toLowerCase().includes(terms); // only filter country name
+
+      if (exact) {
+        return it.name.toLowerCase() == terms;
+      }
+      else {
+        return it.name.toLowerCase().includes(terms);
+      }
+
     });
   }
 }

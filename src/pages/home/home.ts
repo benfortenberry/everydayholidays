@@ -2,6 +2,9 @@ import { TimeDateServiceProvider } from './../../providers/time-date-service/tim
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import * as moment from 'moment';
+import { SocialSharing } from '@ionic-native/social-sharing';
+import { Calendar } from '@ionic-native/calendar';
+
 
 @Component({
   selector: 'page-home',
@@ -13,19 +16,41 @@ export class HomePage {
 
   date: any;
 
-  constructor(public navCtrl: NavController, public tsProvider: TimeDateServiceProvider) {
-    // this.getUsers();
+  constructor(public navCtrl: NavController, public tsProvider: TimeDateServiceProvider, private socialSharing: SocialSharing, private calendar: Calendar) {
+
     this.date = moment().format("MMMM D");
     this.getData();
-    //this.date = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+
   }
 
   getData() {
     this.tsProvider.getData()
       .then(data => {
         this.data = data;
-        console.log(this.data);
+        //  console.log(this.data);
       });
+  }
+
+  share(h) {
+    this.socialSharing.share("Today is " + h.name + "!", "Holidays", null, null)
+  }
+
+
+  addToCalendar(h) {
+    var builtDate = h.date + " " + moment().year();
+
+
+    var momentizedDate = moment(builtDate, 'MMMM D YYYY');
+
+    if (momentizedDate.isBefore(moment())) {
+
+      momentizedDate = moment(builtDate, 'MMMM D YYYY').add(1, 'y')
+
+    }
+
+    //console.log(momentizedDate.toString())
+    this.calendar.createEventInteractively(h.name, '', '', momentizedDate.toDate(), momentizedDate.add(1, 'd').toDate());
+
   }
 
 

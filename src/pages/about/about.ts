@@ -2,8 +2,8 @@ import { DetailPage } from './../detail/detail';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { TimeDateServiceProvider } from './../../providers/time-date-service/time-date-service';
-import { ModalController, NavParams } from 'ionic-angular';
-import { Modal, ModalOptions } from 'ionic-angular';
+import { ModalController } from 'ionic-angular';
+import { ModalOptions } from 'ionic-angular';
 
 
 @Component({
@@ -16,7 +16,9 @@ export class AboutPage {
 
 
   constructor(public navCtrl: NavController, public tsProvider: TimeDateServiceProvider, public modalCtrl: ModalController) {
+
     this.getData();
+
   }
 
   presentProfileModal(h) {

@@ -1,219 +1,2623 @@
 {
-  "holidays": [
-
-
-
+  "holidays": [{
+      "name": "January"
+    },
     {
       "date": "January 1",
       "name": "Polar Bear Plunge Day",
-      "keyword": "Uvx4MCOk2cE",
-      "blurb": "Find some cold water, jump in it"
+      "keyword": "polar",
+      "blurb": "Find some ice-cold water, jump in it!"
     },
     {
       "date": "January 2",
       "name": "Buffet Day",
-      "keyword": "4_jhDO54BYg"
-    },
-    {
-      "date": "January 2",
-      "name": "Run It up the Flagpole and See If Anyone Salutes It Day",
-      "keyword": "Ze7LhD5lXes"
+      "keyword": "buffet",
+      "blurb": "Visit a local buffet and chow down. Wear your comfy pants."
     },
     {
       "date": "January 2",
       "name": "Science Fiction Day",
-      "keyword": "LmeNSowuQGY"
+      "keyword": "scifi",
+      "blurb": "Grok some mind-blowing ideas."
     },
     {
-      "date": "July 3",
-      "name": "Fruitcake Toss Day",
-      "keyword": "_Skvg1Izyxc"
-    },
-    {
-      "date": "July 3",
+      "date": "January 3",
       "name": "Festival of Sleep Day",
-      "keyword": "HSy0QXIRafg",
-      "blurb": "Go to bed. Sleep longer."
+      "keyword": "sleep",
+      "blurb": "Stay in bed. Sleep longer."
     },
     {
       "date": "January 4",
       "name": "Trivia Day",
-      "keyword": "40k6ZqbsXuo"
+      "keyword": "trivia",
+      "blurb": "What is the airspeed of an unladen swallow?"
     },
     {
       "date": "January 5",
       "name": "Bird Day",
-      "keyword": "hjOo7t14pMA"
+      "keyword": "bird",
+      "blurb": "No, you cannot fly on this day. Appreciate those who can."
     },
     {
       "date": "January 6",
       "name": "Bean Day",
-      "keyword": "H5k8PoC1BBc"
+      "keyword": "bean",
+      "blurb": "They may not all be magic."
     },
     {
       "date": "January 7",
       "name": "Old Rock Day",
-      "keyword": "8Fer_szW-i4"
+      "keyword": "rock",
+      "blurb": "From mountains to pebbles, find time to appreciate our stony friends."
     },
     {
       "date": "January 8",
       "name": "Earth's Rotation Day",
-      "keyword": "Q1p7bh3SHj8"
+      "keyword": "globe",
+      "blurb": "Some people can feel the earth moving. Can you?"
     },
     {
       "date": "January 8",
       "name": "Clean Off Your Desk Day",
-      "keyword": "-xJAb5-NJSQ"
+      "keyword": "desk",
+      "blurb": "Don't forget to dust as well. Achoo!"
     },
     {
       "date": "January 9",
       "name": "Static Electricity Day",
-      "keyword": "0HMJhaIMqvw"
+      "keyword": "static_electricity",
+      "blurb": "PJs fresh out the dryer make sparks."
     },
     {
       "date": "January 9",
       "name": "Word Nerd Day",
-      "keyword": "2OCh8tuNsBo"
+      "keyword": "words",
+      "blurb": "Pulchritudinous. Onomatopoeia. Aibohphobia."
     },
     {
       "date": "January 10",
       "name": "Cut Your Energy Costs Day",
-      "keyword": "cMnk5A-zmoY"
+      "keyword": "energy",
+      "blurb": "Turn off lights you aren't using."
     },
     {
       "date": "January 11",
       "name": "Learn Your Name in Morse Code Day",
-      "keyword": "hzjuf7uk4Ls"
+      "keyword": "morse",
+      "blurb": "-.-- --- ..- .-. / -. .- -- ."
     },
     {
       "date": "January 12",
       "name": "Marzipan Day",
-      "keyword": "rXB9YjOQX8I"
+      "keyword": "marzipan",
+      "blurb": "For the sophisticated sweet tooth."
     },
     {
       "date": "January 13",
       "name": "Make Your Dreams Come True Day",
-      "keyword": "cFdH_t5xBxk"
+      "keyword": "dreams",
+      "blurb": "Shoot for the moon!"
     },
     {
       "date": "January 14",
       "name": "Organize Your Home Day",
-      "keyword": "0N0mbPb92gU"
+      "keyword": "organize",
+      "blurb": "Beware of closet avalanches."
     },
     {
       "date": "January 15",
       "name": "Strawberry Ice Cream Day",
-      "keyword": "qg_faAXDawA"
+      "keyword": "strawberry_ice_cream",
+      "blurb": "Ask for two scoops."
     },
     {
       "date": "January 16",
       "name": "Nothing Day",
-      "keyword": "4RNvfpWOcak"
+      "keyword": "nothing",
+      "blurb": "This will blow your mind: nothing is actually something."
     },
     {
       "date": "January 17",
       "name": "Benjamin Franklin Day",
-      "keyword": "rKPiuXLq29A"
+      "keyword": "benjamin_franklin",
+      "blurb": "Founding father. Discoverer of electricity. Ladies man."
     },
     {
       "date": "January 17",
       "name": "Kid Inventors' Day",
-      "keyword": "m0yRv0GxkV8"
+      "keyword": "kid-inventor",
+      "blurb": "Tiny lab coats optional, but highly recommended."
     },
     {
       "date": "January 17",
       "name": "Ditch New Year's Resolution Day",
-      "keyword": "zuLYIQ-4ADQ"
+      "keyword": "end_resolutions",
+      "blurb": "That is, if you've even made it this far."
     },
     {
       "date": "January 18",
       "name": "Thesaurus Day",
-      "keyword": "Oaqk7qqNh_c"
+      "keyword": "thesaurus",
+      "blurb": "Embrace synonyms."
     },
     {
       "date": "January 19",
       "name": "Tin Can Day",
-      "keyword": "jHZjcBok2Oc"
+      "keyword": "tin_can",
+      "blurb": "Two cans, a little string, and you have a phone."
     },
     {
       "date": "January 19",
       "name": "Popcorn Day",
-      "keyword": "GT6JIOvB3Ks"
+      "keyword": "popcorn",
+      "blurb": "Your fellow office workers can't tell you anything today."
     },
     {
       "date": "January 20",
       "name": "Soup Swap Day",
-      "keyword": "JVkGUwTYQag"
+      "keyword": "soup",
+      "blurb": "We all have cans of soup in our pantry we will never eat. Might as well swap them and see."
     },
     {
       "date": "January 20",
       "name": "Penguin Awareness Day",
-      "keyword": "TLcLDigmTKE"
+      "keyword": "penguin",
+      "blurb": "The most formally dressed of the animal kingdom."
     },
     {
       "date": "January 21",
       "name": "Squirrel Appreciation Day",
-      "keyword": "aSYexjDxnX4"
+      "keyword": "squirrel",
+      "blurb": "They're just rats, but the tail changes everything."
     },
     {
       "date": "January 22",
       "name": "Hot Sauce Day",
-      "keyword": "jbsUDKCIKrg"
+      "keyword": "hot_sauce",
+      "blurb": "There's no such thing as too spicy today."
     },
     {
       "date": "January 23",
       "name": "Handwriting Day",
-      "keyword": "y02jEX_B0O0"
+      "keyword": "handwriting",
+      "blurb": "Try calligraphy."
     },
     {
       "date": "January 24",
       "name": "Compliment Day",
-      "keyword": "q3FihXQ-13M"
+      "keyword": "compliment",
+      "blurb": "You are doing a great job reading this description."
     },
     {
       "date": "January 24",
       "name": "Macintosh Computer Day",
-      "keyword": "zFOm6KzA-7g"
+      "keyword": "mac",
+      "blurb": "Time for an upgrade."
     },
     {
       "date": "January 25",
       "name": "Opposite Day",
-      "keyword": "MXj8mrLXWKY"
+      "keyword": "opposite",
+      "blurb": "You go that way, I'll go this way."
     },
     {
       "date": "January 26",
       "name": "Spouse's Day",
-      "keyword": "h7Y2w3FyOI0"
+      "keyword": "spouse",
+      "blurb": "Did you forget your anniversary?"
     },
     {
       "date": "January 27",
       "name": "Chocolate Cake Day",
-      "keyword": "P_l1bJQpQF0"
+      "keyword": "chocolate-cake",
+      "blurb": "The best kind of cake."
     },
     {
       "date": "January 27",
       "name": "e-Day",
-      "keyword": "5mZ_M06Fc9g"
+      "keyword": "e",
+      "blurb": "When even numbers are irrational, things get weird."
     },
     {
       "date": "January 28",
       "name": "Data Privacy Day",
-      "keyword": "fPxOowbR6ls"
+      "keyword": "privacy",
+      "blurb": "Check your privacy settings on all your devices and social media."
     },
     {
       "date": "January 29",
       "name": "Puzzle Day",
-      "keyword": "3y1zF4hIPCg"
+      "keyword": "puzzle",
+      "blurb": "Find all the edges first."
     },
     {
       "date": "January 30",
       "name": "Croissant Day",
-      "keyword": "uO622Nkg98k"
+      "keyword": "croissant",
+      "blurb": "Visit your local bakery for buttery flaky goodness."
     },
     {
       "date": "January 31",
       "name": "Backwards Day",
-      "keyword": "hfZYhPNK1Oc"
+      "keyword": "backward",
+      "blurb": "Walk backwards. Turn your clothes around. Drive in reverse."
+    },
+    {
+      "name": "February"
+    },
+    {
+      "date": "February 1",
+      "name": "Freedom Day",
+      "keyword": "freedom",
+      "blurb": "Celebrate all the everyday freedoms we take for granted and remember those who struggled to make it so."
+    },
+    {
+      "date": "February 2",
+      "name": "Work Naked Day",
+      "keyword": "nude",
+      "blurb": "Best for remote workers."
+    },
+    {
+      "date": "February 2",
+      "name": "Day of the Crêpe",
+      "keyword": "crepe",
+      "blurb": "Crêpe: the better pancake. Find some lingonberries if you can."
+    },
+    {
+      "date": "February 2",
+      "name": "Play Your Ukulele Day",
+      "keyword": "ukelele",
+      "blurb": "Time to actually learn how to play that uke in the closet."
+    },
+    {
+      "date": "February 3",
+      "name": "Eat Ice Cream for Breakfast Day",
+      "keyword": "breakfast-icecream",
+      "blurb": "Seems wrong, but on this day can be oh so right."
+    },
+    {
+      "date": "February 3",
+      "name": "Carrot Cake Day",
+      "keyword": "carrot-cake",
+      "blurb": "The cake we pretend is healthy can actually be delicious."
+    },
+    {
+      "date": "February 4",
+      "name": "Thank Your Mailman Day",
+      "keyword": "mailman",
+      "blurb": "It's not their fault there's so much junk mail."
+    },
+    {
+      "date": "February 4",
+      "name": "Stuffed Mushroom Day",
+      "keyword": "mushroom",
+      "blurb": "Stuffed mushrooms are like baked potatoes: only as good as what you pile on top."
+    },
+    {
+      "date": "February 5",
+      "name": "Weatherperson's Day",
+      "keyword": "weatherperson",
+      "blurb": "For all those times when a weather prediction has saved your plans."
+    },
+    {
+      "date": "February 5",
+      "name": "Chocolate Fondue Day",
+      "keyword": "fondue",
+      "blurb": "Because anything dipped in melted chocolate is awesome."
+    },
+    {
+      "date": "February 6",
+      "name": "Chopsticks Day",
+      "keyword": "chopsticks",
+      "blurb": "The sign of a well-rounded adult: You hold your chopsticks properly."
+    },
+    {
+      "date": "February 7",
+      "name": "Wave All Your Fingers at Your Neighbor Day",
+      "keyword": "waving",
+      "blurb": "It might weird them out if you've never done it before, but give it a shot and see if it's reciprocated."
+    },
+    {
+      "date": "February 7",
+      "name": "Send a Card to a Friend Day",
+      "keyword": "card",
+      "blurb": "No emails or e-cards allowed!"
+    },
+    {
+      "date": "February 8",
+      "name": "Laugh and Get Rich Day",
+      "keyword": "laugh",
+      "blurb": "The second part is much harder than the first, but essentially: do what you enjoy today."
+    },
+    {
+      "date": "February 9",
+      "name": "Toothache Day",
+      "keyword": "toothache",
+      "blurb": "Remember that last toothache? Make an appointment with your dentist today!"
+    },
+    {
+      "date": "February 9",
+      "name": "Bagel and Lox Day",
+      "keyword": "bagel",
+      "blurb": "Find your local deli or bagel shop and learn what lox is if you don't know."
+    },
+    {
+      "date": "February 10",
+      "name": "Umbrella Day",
+      "keyword": "umbrella",
+      "blurb": "Nothing makes you feel better prepared than to have an umbrella when you need it."
+    },
+    {
+      "date": "February 11",
+      "name": "Make a Friend Day",
+      "keyword": "friend",
+      "blurb": "Start by learning each other's names. Then find a common interest."
+    },
+    {
+      "date": "February 11",
+      "name": "Don't Cry Over Spilled Milk Day",
+      "keyword": "milk",
+      "blurb": "Crying won't help clean it up."
+    },
+    {
+      "date": "February 12",
+      "name": "Clean Out Your Computer Day",
+      "keyword": "clean-computer",
+      "blurb": "When your recycle bin is taking up the most space on your machine."
+    },
+    {
+      "date": "February 12",
+      "name": "Darwin Day",
+      "keyword": "darwin",
+      "blurb": "What seems so obvious now, took Darwin to point it out."
+    },
+    {
+      "date": "February 13",
+      "name": "Radio Day",
+      "keyword": "radio",
+      "blurb": "WTUL 91.5 is highly recommended."
+    },
+    {
+      "date": "February 14",
+      "name": "Ferris Wheel Day",
+      "keyword": "ferris",
+      "blurb": "When you're stuck at the top remember: you've also got the best view."
+    },
+    {
+      "date": "February 14",
+      "name": "Library Lovers Day",
+      "keyword": "library",
+      "blurb": "The friendly, quiet place to learn all there is to know."
+    },
+    {
+      "date": "February 15",
+      "name": "Gumdrop Day",
+      "keyword": "gumdrop",
+      "blurb": "Grab a bag of gumdrops at your local store or try making at home."
+    },
+    {
+      "date": "February 16",
+      "name": "Do a Grouch a Favor Day",
+      "keyword": "grouch",
+      "blurb": "If lots of people end up doing you favors today...never mind."
+    },
+    {
+      "date": "February 17",
+      "name": "Random Act of Kindness Day",
+      "keyword": "kindness",
+      "blurb": "Anything that makes another living being a little happier."
+    },
+    {
+      "date": "February 18",
+      "name": "Battery Day",
+      "keyword": "battery",
+      "blurb": "Charge up all those devices."
+    },
+    {
+      "date": "February 19",
+      "name": "Chocolate Mint Day",
+      "keyword": "mint",
+      "blurb": "Plant a chocolate plant for great smells and useful leaves year-round."
+    },
+    {
+      "date": "February 20",
+      "name": "Cherry Pie Day",
+      "keyword": "cherry-pie",
+      "blurb": "It's always the right time for this classic."
+    },
+    {
+      "date": "February 21",
+      "name": "Sticky Bun Day",
+      "keyword": "sticky-bun",
+      "blurb": "Messy fingers are a small price to pay."
+    },
+    {
+      "date": "February 22",
+      "name": "Single Tasking Day",
+      "keyword": "single-task",
+      "blurb": "Set status to do-not-disturb and get. it. done."
+    },
+    {
+      "date": "February 22",
+      "name": "Be Humble Day",
+      "keyword": "humble",
+      "blurb": "Sit down. Be humble."
+    },
+    {
+      "date": "February 23",
+      "name": "Dog Biscuit Appreciation Day",
+      "keyword": "dog-biscuit",
+      "blurb": "The dog treat that you're kinda curious about."
+    },
+    {
+      "date": "February 24",
+      "name": "Tortilla Chip Day",
+      "keyword": "guacamole",
+      "blurb": "Crunchy and munchy."
+    },
+    {
+      "date": "February 24",
+      "name": "Sword Swallowers Day",
+      "keyword": "sword",
+      "blurb": "Do not try this at home."
+    },
+    {
+      "date": "February 25",
+      "name": "Clam Chowder Day",
+      "keyword": "clam",
+      "blurb": "Try the many varieties of clam chowder; it's not just New England's."
+    },
+    {
+      "date": "February 26",
+      "name": "Pistachio Day",
+      "keyword": "pistachio",
+      "blurb": "When improperly stored in bulk, pistachios can spontaneously combust."
+    },
+    {
+      "date": "February 26",
+      "name": "Tell a Fairy Tale Day",
+      "keyword": "fairy-tale",
+      "blurb": "Once upon a time..."
+    },
+    {
+      "date": "February 27",
+      "name": "Pancake Day",
+      "keyword": "pancake",
+      "blurb": "Peanut butter can be a nice alternate topping, but maple syrup is a must."
+    },
+    {
+      "date": "February 28",
+      "name": "Public Sleeping Day",
+      "keyword": "public-sleep",
+      "blurb": "Recommended places: movie theater, library, coffee shop. Not recommended: building ledges."
+    },
+    {
+      "date": "February 29",
+      "name": "Leap Day",
+      "keyword": "leap",
+      "blurb": "Once every four years and a reminder our calendar is cuckoo."
+    },
+    {
+
+      "name": "March"
+
+    },
+    {
+      "date": "March 1",
+      "name": "Peanut Butter Lovers' Day",
+      "keyword": "peanut",
+      "blurb": "The most versatile of spreads. Try on carrots, apples, sandwiches and pancakes."
+    }, {
+      "date": "March 1",
+      "name": "Plan a Solo Vacation Day",
+      "keyword": "vacation",
+      "blurb": "Treat yourself. Even if you don't actually go anywhere, planning can be therapeutic."
+    }, {
+      "date": "March 2",
+      "name": "Old Stuff Day",
+      "keyword": "old-stuff",
+      "blurb": "Get rid of your old stuff and try something new."
+    }, {
+      "date": "March 3",
+      "name": "I Want You to be Happy Day",
+      "keyword": "happy",
+      "blurb": "Encourage others to stop worrying and be happy."
+    }, {
+      "date": "March 4",
+      "name": "March Forth and Do Something Day",
+      "keyword": "march",
+      "blurb": "Get scuba certified. Learn a musical instrument. Seize this day."
+    }, {
+      "date": "March 5",
+      "name": "Learn What Your Name Means Day",
+      "keyword": "name-meaning",
+      "blurb": "If it doesn't have one, you could make it up!"
+    }, {
+      "date": "March 6",
+      "name": "Dentist’s Day",
+      "keyword": "toothache",
+      "blurb": "Show appreciation for your dentist, perhaps the most underappreciated person in your life."
+    }, {
+      "date": "March 7",
+      "name": "Alexander Graham Bell Day",
+      "keyword": "telephone",
+      "blurb": "An early phone greeting was 'Ahoy!'"
+    }, {
+      "date": "March 8",
+      "name": "Proofreading Day",
+      "keyword": "proofread",
+      "blurb": "Double check your emails and texts one more time before you hit sned today."
+    }, {
+      "date": "March 9",
+      "name": "Panic Day",
+      "keyword": "panic",
+      "blurb": "Could go two ways: try extra hard to keep calm or when something entirely trivial happens, FREAK OUT!"
+    }, {
+      "date": "March 10",
+      "name": "Mario Day",
+      "keyword": "mario",
+      "blurb": "Everyone's favorite Italian plumber who also happens to save princesses and fight nightmare creatures."
+    }, {
+      "date": "March 11",
+      "name": "Oatmeal Nut Waffle Day",
+      "keyword": "oatmeal",
+      "blurb": "Oddly specific, but sounds delicious."
+    }, {
+      "date": "March 12",
+      "name": "Napping Day",
+      "keyword": "nap",
+      "blurb": "Is there anything better than a midday nap?"
+    }, {
+      "date": "March 12",
+      "name": "Alfred Hitchcock Day",
+      "keyword": "hitchcock",
+      "blurb": "Watch films such as Vertigo, Psycho or North By Northwest."
+    }, {
+      "date": "March 13",
+      "name": "Jewel Day",
+      "keyword": "jewel",
+      "blurb": "Your day to look like royalty. Could be a good day for a special gift."
+    }, {
+      "date": "March 14",
+      "name": "Pi Day",
+      "keyword": "pi",
+      "blurb": "Mathematical constant beginning with 3.14. Also, an excuse to eat pie."
+    }, {
+      "date": "March 15",
+      "name": "Everything You Think is Wrong Day",
+      "keyword": "wrong",
+      "blurb": "Think you might be wrong about something and be open to the other side."
+    }, {
+      "date": "March 15",
+      "name": "Absolutely Incredible Kid Day",
+      "keyword": "incredible-kid",
+      "blurb": "Allow yourself to enter into the imaginative world of our younger selves by letting them direct play."
+    }, {
+      "date": "March 16",
+      "name": "Every Thing You Do is Right Day",
+      "keyword": "right",
+      "blurb": "Imagine you drank some felix felicis."
+    }, {
+      "date": "March 17",
+      "name": "Submarine Day",
+      "keyword": "submarine",
+      "blurb": "Other than the nautical vessel, maybe a sandwich would work."
+    }, {
+      "date": "March 18",
+      "name": "Awkward Moments Day",
+      "keyword": "awkward",
+      "blurb": "Trap people you see walking into 'are they going left or right' situations. "
+    }, {
+      "date": "March 19",
+      "name": "Let's Laugh Day",
+      "keyword": "laugh",
+      "blurb": "Tell someone a funny story from your past and hear one in return. "
+    }, {
+      "date": "March 20",
+      "name": "Storytelling Day",
+      "keyword": "storytelling",
+      "blurb": "Campfire not required."
+    }, {
+      "date": "March 20",
+      "name": "Proposal Day",
+      "keyword": "proposal",
+      "blurb": "Could this be all you needed to pop the question?"
+    }, {
+      "date": "March 21",
+      "name": "Common Courtesy Day",
+      "keyword": "courtesy",
+      "blurb": "Keep that elevator door open a little longer today."
+    }, {
+      "date": "March 22",
+      "name": "Goof Off Day",
+      "keyword": "goof",
+      "blurb": "Be a kid again."
+    }, {
+      "date": "March 23",
+      "name": "OK Day",
+      "keyword": "ok",
+      "blurb": "Two little words with a world of meaning."
+    }, {
+      "date": "March 23",
+      "name": "Puppy Day",
+      "keyword": "puppy",
+      "blurb": "They may have sharp teeth and ruin everything, but who could stay mad?"
+    }, {
+      "date": "March 23",
+      "name": "Near Miss Day",
+      "keyword": "miss",
+      "blurb": "Remember all those times where something bad almost happened, but fate intervened."
+    }, {
+      "date": "March 24",
+      "name": "Chocolate Covered Raisins Day",
+      "keyword": "chocolate-raisins",
+      "blurb": "Underrated dessert item and movie buddy."
+    }, {
+      "date": "March 25",
+      "name": "Tolkien Reading Day",
+      "keyword": "tolkien",
+      "blurb": "Big, hairy feet, dragons and dangerous rings."
+    }, {
+      "date": "March 26",
+      "name": "Make Up Your Own Holiday Day",
+      "keyword": "holiday",
+      "blurb": "Be sure to get back to us so we can add it to the list."
+    }, {
+      "date": "March 27",
+      "name": "Spanish Paella Day",
+      "keyword": "paella",
+      "blurb": "The food you wish you were raised on."
+    }, {
+      "date": "March 28",
+      "name": "Something on a Stick Day",
+      "keyword": "stick",
+      "blurb": "Something about food on a stick makes it taste better"
+    }, {
+      "date": "March 29",
+      "name": "Smoke and Mirrors Day",
+      "keyword": "smoke",
+      "blurb": "Update your social media with your travel pics from Rome you never took."
+    }, {
+      "date": "March 30",
+      "name": "Take a Walk in the Park Day",
+      "keyword": "park",
+      "blurb": "Best advice is to have no set destination. Go where the path leads."
+    }, {
+      "date": "March 31",
+      "name": "Bunsen Burner Day",
+      "keyword": "burner",
+      "blurb": "Consider all the breakthrough achievements due to a small blowtorch."
+    },
+    {
+      "name": "April"
+
+    },
+    {
+      "date": "April 1",
+      "name": "Fun at Work Day",
+      "keyword": "fun-work",
+      "blurb": "Agree on a secret word and yell out when someone accidentally says it. Share funny stories about your new employee mishaps."
+    },
+    {
+      "date": "April 2",
+      "name": "Peanut Butter and Jelly Day",
+      "keyword": "pbj",
+      "blurb": "Maybe the best combo on planet Earth. Bring an extra to work to share."
+    },
+    {
+      "date": "April 3",
+      "name": "Party Day",
+      "keyword": "party",
+      "blurb": "You gotta fight for your right to this day."
+    },
+    {
+      "date": "April 4",
+      "name": "Walking Day",
+      "keyword": "walk",
+      "blurb": "No destination required"
+    },
+    {
+      "date": "April 5",
+      "name": "Read a Road Map Day",
+      "keyword": "road-map",
+      "blurb": "Electronic maps are allowed. Learn a new part of your city or get lost and map your way found."
+    },
+    {
+      "date": "April 5",
+      "name": "First Contact Day",
+      "keyword": "first-contact",
+      "blurb": "Space: the final frontier."
+    },
+    {
+      "date": "April 6",
+      "name": "Siamese Cat Day",
+      "keyword": "siamese-cat",
+      "blurb": "If you please."
+    },
+    {
+      "date": "April 6",
+      "name": "Sorry Charlie Day",
+      "keyword": "sorry-charlie",
+      "blurb": "A day for the unrequited lovers and their broken hearts."
+    },
+    {
+      "date": "April 7",
+      "name": "Health Day",
+      "keyword": "health",
+      "blurb": "Get that checkup you've been putting off. Make some new goals to live, work and eat healthier."
+    },
+    {
+      "date": "April 8",
+      "name": "Zoo Lovers' Day",
+      "keyword": "zoo-lovers",
+      "blurb": "Visit the local zoo, shelter or sanctuary and appreciate the amazing animal kingdom."
+    },
+    {
+      "date": "April 9",
+      "name": "Name Yourself Day",
+      "keyword": "names",
+      "blurb": "On this day, you have a new name other than what your parents gave you. Who knows, maybe it will stick."
+    },
+    {
+      "date": "April 10",
+      "name": "Be Kind to Lawyers Day",
+      "keyword": "lawyer",
+      "blurb": "Hate the game, not the playa."
+    },
+    {
+      "date": "April 10",
+      "name": "Siblings Day",
+      "keyword": "siblings",
+      "blurb": "They drive you nuts, but perhaps no one knows us better."
+    },
+    {
+      "date": "April 11",
+      "name": "Pet Day",
+      "keyword": "pet",
+      "blurb": "If you don't currently have a pet, a hamster is a good start. If you do, give 'em an extra treat."
+    },
+    {
+      "date": "April 12",
+      "name": "Grilled Cheese Day",
+      "keyword": "grilled-cheese",
+      "blurb": "It's just a bread and cheese sandwich, but when grilled it becomes legendary. Extra toppings encouraged."
+    },
+    {
+      "date": "April 12",
+      "name": "Yuri's Night",
+      "keyword": "astronaut",
+      "blurb": "A celebration of the first man in space, Yuri Gagarin. In 1961, he spent 89 minutes in orbit."
+    },
+    {
+      "date": "April 13",
+      "name": "Scrabble Day",
+      "keyword": "scrabble",
+      "blurb": "One of the highest scoring words is: sesquioxidizing, meaning to use sesquioxide, a chemical element, on another element"
+    },
+    {
+      "date": "April 14",
+      "name": "Moment of Laughter Day",
+      "keyword": "laugh2",
+      "blurb": "Charlie Chaplin movies recommended."
+    },
+    {
+      "date": "April 14",
+      "name": "Reach as High as You Can Day",
+      "keyword": "reach",
+      "blurb": "No goal is too outrageous (even becoming a dinosaur) for this day. Put your dreams in to plans and take action."
+    },
+    {
+      "date": "April 14",
+      "name": "Look up at the Sky Day",
+      "keyword": "look-up",
+      "blurb": "If daytime, avoid looking at the sun. If you observe at night, get out of the city if possible to see all the stars."
+    },
+    {
+      "date": "April 15",
+      "name": "Titanic Remembrance Day",
+      "keyword": "titanic",
+      "blurb": "An eternal lesson about hubris, but also a tragic event for those involved."
+    },
+    {
+      "date": "April 16",
+      "name": "Eggs Benedict Day",
+      "keyword": "eggs-benedict",
+      "blurb": "Perfect for breakfast, lunch and dinner."
+    },
+    {
+      "date": "April 17",
+      "name": "Haiku Poetry Day",
+      "keyword": "haiku",
+      "blurb": "Haikus are quite fun. Even if they are tricky. Don't think I did this right."
+    },
+    {
+      "date": "April 18",
+      "name": "Velociraptor Awareness Day",
+      "keyword": "velociraptor",
+      "blurb": "You can't convince me they wouldn't know how to turn door handles and get me."
+    },
+    {
+      "date": "April 19",
+      "name": "High Five Day",
+      "keyword": "high-five",
+      "blurb": "A proper high five should leave both hands stinging a little bit."
+    },
+    {
+      "date": "April 20",
+      "name": "Look Alike Day",
+      "keyword": "look-alike",
+      "blurb": "Convince as many friends as possible to dress alike and then deny it was planned at all."
+    },
+    {
+      "date": "April 21",
+      "name": "Record Store Day",
+      "keyword": "vinyl",
+      "blurb": "Visit your local music shop for exclusive records."
+    },
+    {
+      "date": "April 21",
+      "name": "Astronomy Day",
+      "keyword": "astronomy",
+      "blurb": "Visit a planetarium or stargaze until you feel as insignificant as possible."
+    },
+    {
+      "date": "April 22",
+      "name": "Jelly Bean Day",
+      "keyword": "jelly-bean",
+      "blurb": "Even the black ones need some love."
+    },
+    {
+      "date": "April 23",
+      "name": "Take a Chance Day",
+      "keyword": "chance",
+      "blurb": "Ask for a raise!"
+    },
+    {
+      "date": "April 23",
+      "name": "Book Day",
+      "keyword": "book",
+      "blurb": "There are probably at least ten books in your house you've never read."
+    },
+    {
+      "date": "April 23",
+      "name": "Lover's Day",
+      "keyword": "lovers",
+      "blurb": "Do something special for you significant other."
+    },
+    {
+      "date": "April 24",
+      "name": "Pig in a Blanket",
+      "keyword": "pig-blanket",
+      "blurb": "The hot dog's little (and cuter) brother."
+    },
+    {
+      "date": "April 25",
+      "name": "DNA Day",
+      "keyword": "dna",
+      "blurb": "Consider the infinite odds which went into making all the life around you."
+    },
+    {
+      "date": "April 26",
+      "name": "Poem in Your Pocket Day",
+      "keyword": "poem-pocket",
+      "blurb": "Select a poem, keep it in your pocket and read it to others you meet today."
+    },
+    {
+      "date": "April 26",
+      "name": "Take Our Daughters and Sons to Work Day",
+      "keyword": "sons-daughter",
+      "blurb": "This can either be a glimpse into your dream job or motivation for the children to work harder at their education."
+    },
+    {
+      "date": "April 26",
+      "name": "Pretzel Day",
+      "keyword": "pretzel",
+      "blurb": "Crunchy bread tied in a knot with salt all over it. What's not to like?"
+    },
+
+    {
+      "date": "April 27",
+      "name": "Day of Silence",
+      "keyword": "silence",
+      "blurb": " "
+    },
+    {
+      "date": "April 28",
+      "name": "Arbor Day",
+      "keyword": "tree",
+      "blurb": "Try to plant a tree today to celebrate these givers of shade, fruit and oxygen."
+    },
+    {
+      "date": "April 29",
+      "name": "Zipper Day",
+      "keyword": "zipper",
+      "blurb": "Because who has time for buttons? No excuse to have the fly down today."
+    },
+    {
+      "date": "April 30",
+      "name": "Honesty Day",
+      "keyword": "honesty",
+      "blurb": "Tell them how you really feel about their cooking."
+    },
+
+    {
+      "name": "May"
+    },
+    {
+      "date": "May 1",
+      "name": "Batman Day",
+      "keyword": "batman",
+      "blurb": "He may not have super powers, but he's excellent at naming his possessions."
+    },
+    {
+      "date": "May 2",
+      "name": "Brothers and Sisters Day",
+      "keyword": "brother-sister",
+      "blurb": "If there are enough of you, start a band."
+    },
+    {
+      "date": "May 3",
+      "name": "Paranormal Day",
+      "keyword": "ghost",
+      "blurb": "Did you hear that?"
+    },
+
+    {
+      "date": "May 4",
+      "name": "Space Day",
+      "keyword": "space",
+      "blurb": "Can you hear me Major Tom?"
+    },
+    {
+      "date": "May 4",
+      "name": "Star Wars Day",
+      "keyword": "star-wars",
+      "blurb": "May the 4th Be with You."
+    },
+    {
+      "date": "May 5",
+      "name": "Herb Day",
+      "keyword": "herb",
+      "blurb": "Parsley, Sage, Rosemary and Thyme are just a few herbs to use today."
+    },
+    {
+      "date": "May 5",
+      "name": "Free Comic Book Day",
+      "keyword": "comic-book",
+      "blurb": "Don't forget to also buy something to support your local comic book shop."
+    },
+    {
+      "date": "May 6",
+      "name": "Beverage Day",
+      "keyword": "drink",
+      "blurb": "Hot or cold, treat yourself to something indulgent or unusual today."
+    },
+    {
+      "date": "May 7",
+      "name": "Tourism Day",
+      "keyword": "tourism",
+      "blurb": "Does not require travel. There's probably tons of things in your city you haven't done or seen yet."
+    },
+    {
+      "date": "May 8",
+      "name": "Teacher's Day",
+      "keyword": "teacher",
+      "blurb": "Let your teacher know they've made a difference in your life."
+    },
+
+    {
+      "date": "May 9",
+      "name": "Europe Day",
+      "keyword": "europe",
+      "blurb": "This is the day to wear a beret, eat unpasteurized cheese, and be a fan of real football. "
+    },
+    {
+      "date": "May 9",
+      "name": "Lost Sock Memorial Day",
+      "keyword": "lost-sock",
+      "blurb": "Pay tribute to the noble socks who have been lost forever."
+    },
+    {
+      "date": "May 10",
+      "name": "Clean Up Your Room Day",
+      "keyword": "clean-room",
+      "blurb": "If it's overwhelming, start with a small area and see where it leads. It can get worse before it gets better."
+    },
+
+    {
+      "date": "May 11",
+      "name": "Eat What You Want Day",
+      "keyword": "eat",
+      "blurb": "Within reason. Put that cactus down."
+    },
+    {
+      "date": "May 12",
+      "name": "Limerick Day",
+      "keyword": "limerick",
+      "blurb": "There once was a man from Nantucket."
+    },
+    {
+      "date": "May 13",
+      "name": "Frog Jumping Day",
+      "keyword": "frog",
+      "blurb": "You don't have to be in Calaveras County to observe."
+    },
+    {
+      "date": "May 14",
+      "name": "Dance Like a Chicken Day",
+      "keyword": "chicken",
+      "blurb": "Chicken dance song recommended but not required."
+    },
+    {
+      "date": "May 15",
+      "name": "Chocolate Chip Day",
+      "keyword": "chocolate-chip",
+      "blurb": "Improves any cookie."
+    },
+    {
+      "date": "May 16",
+      "name": "Wear Purple for Peace Day",
+      "keyword": "purple",
+      "blurb": "Start wearing purple."
+    },
+    {
+      "date": "May 17",
+      "name": "Tattoo Day",
+      "keyword": "tattoo",
+      "blurb": "Fear of permanent decisions? Try temporary tattoos on this day."
+    },
+    {
+      "date": "May 18",
+      "name": "Pizza Party Day",
+      "keyword": "pizza-party",
+      "blurb": "There's always a reason to throw a pizza party. Today it's a must."
+    },
+    {
+      "date": "May 18",
+      "name": "No Dirty Dishes Day",
+      "keyword": "dishes",
+      "blurb": "An empty, clean sink is the goal today."
+    },
+    {
+      "date": "May 19",
+      "name": "May Ray Day",
+      "keyword": "may-ray",
+      "blurb": "Let the sun shine."
+    },
+    {
+      "date": "May 20",
+      "name": "Be a Millionaire Day",
+      "keyword": "millionaire",
+      "blurb": "Have the mindset that you are a millionaire. You're just slumming it with us regular folks today."
+    },
+    {
+      "date": "May 21",
+      "name": "Waitstaff Day",
+      "keyword": "waiter",
+      "blurb": "Tip your servers a little extra and leave your table a little neater."
+    },
+    {
+      "date": "May 22",
+      "name": "Buy a Musical Instrument Day",
+      "keyword": "musical",
+      "blurb": "Anyone can learn a musical instrument and learning to play is a much more rewarding hobby than tv or video games."
+    },
+    {
+      "date": "May 23",
+      "name": "Taffy Day",
+      "keyword": "taffy",
+      "blurb": "Fun to make at home and quite a workout."
+    },
+    {
+      "date": "May 24",
+      "name": "Scavenger Hunt Day",
+      "keyword": "scavenger-hunt",
+      "blurb": "Learn about geocaching and get out there."
+    },
+    {
+      "date": "May 25",
+      "name": "Sing Out Day",
+      "keyword": "sing",
+      "blurb": "Don't feel ashamed when singing along in the shower or the car. Today is your day."
+    },
+    {
+      "date": "May 25",
+      "name": "Towel Day",
+      "keyword": "towel",
+      "blurb": "The most useful possession you could ever own."
+    },
+    {
+      "date": "May 26",
+      "name": "Paper Airplane Day",
+      "keyword": "paper-airplane",
+      "blurb": "Recycle your junk mail."
+    },
+    {
+      "date": "May 27",
+      "name": "Sunscreen Day",
+      "keyword": "sunscreen",
+      "blurb": "Because sunburn is the worst."
+    },
+    {
+      "date": "May 28",
+      "name": "Hamburger Day",
+      "keyword": "hamburger",
+      "blurb": "I'll gladly pay you Tuesday for a hamburger today."
+    },
+    {
+      "date": "May 29",
+      "name": "Paper Clip Day",
+      "keyword": "paperclip",
+      "blurb": "The poor man's staple."
+    },
+    {
+      "date": "May 30",
+      "name": "Water a Flower Day",
+      "keyword": "flower",
+      "blurb": "How does your garden grow?"
+    },
+    {
+      "date": "May 31",
+      "name": "Web Designer Day",
+      "keyword": "programmer",
+      "blurb": "We built this."
+    },
+    {
+      "name": "June"
+    },
+    {
+      "date": "June 1",
+      "name": "Say Something Nice Day",
+      "keyword": "nice",
+      "blurb": "We'll start it off: You are the most perfect you there is."
+    },
+    {
+      "date": "June 1",
+      "name": "Doughnut Day",
+      "keyword": "doughnut",
+      "blurb": "Bring a dozen (or more) to work today."
+    },
+    {
+      "date": "June 2",
+      "name": "Leave the Office Early Day",
+      "keyword": "office",
+      "blurb": "Everyone deserves to leave early once and a while."
+    },
+    {
+      "date": "June 3",
+      "name": "Repeat Day",
+      "keyword": "repeat",
+      "blurb": "I'm going to get the papers. Get the papers."
+    },
+    {
+      "date": "June 4",
+      "name": "Cheese Day",
+      "keyword": "cheese",
+      "blurb": "An endless variety to choose from."
+    },
+    {
+      "date": "June 5",
+      "name": "Hug Your Cat Day",
+      "keyword": "cat",
+      "blurb": "They may not like it, but it's just once a year."
+    },
+    {
+      "date": "June 6",
+      "name": "Yo-yo Day",
+      "keyword": "yoyo",
+      "blurb": "Walk the dog. Rock the Baby."
+    },
+    {
+      "date": "June 7",
+      "name": "Running Day",
+      "keyword": "running",
+      "blurb": "Like most things, it gets easier the more times you do it."
+    },
+    {
+      "date": "June 8",
+      "name": "Best Friends Day",
+      "keyword": "best-friends",
+      "blurb": "Let your best friend know how much they mean to you."
+    },
+    {
+      "date": "June 9",
+      "name": "Knit in Public Day",
+      "keyword": "knit",
+      "blurb": "Knit bombing items is encouraged today."
+    },
+    {
+      "date": "June 10",
+      "name": "Iced Tea Day",
+      "keyword": "ice-tea",
+      "blurb": "Sweet tea is the way to go here."
+    },
+    {
+      "date": "June 11",
+      "name": "Corn on the Cob Day",
+      "keyword": "corn",
+      "blurb": "The perfect corn delivery system includes corn-shaped holders."
+    },
+    {
+      "date": "June 12",
+      "name": "Red Rose Day",
+      "keyword": "red-rose",
+      "blurb": "Gift them to the special people in your life."
+    },
+    {
+      "date": "June 13",
+      "name": "Sewing Machine Day",
+      "keyword": "sewing",
+      "blurb": "Honors the invention of the sewing machine which is used on at least 90% of our clothing."
+    },
+    {
+      "date": "June 14",
+      "name": "Bourbon Day",
+      "keyword": "bourbon",
+      "blurb": "Good for cooking as well as happy hour."
+    },
+    {
+      "date": "June 15",
+      "name": "Nature Photography Day",
+      "keyword": "photographer",
+      "blurb": "Share your favorite shots of lizards leaping and lions lunging today."
+    },
+    {
+      "date": "June 16",
+      "name": "Juggling Day",
+      "keyword": "juggle",
+      "blurb": "Start with non-breakable items."
+    },
+    {
+      "date": "June 16",
+      "name": "Bloomsday",
+      "keyword": "joyce",
+      "blurb": "Named after the character Leopold Bloom in James Joyce's Ulysses, one of the most important works in literature. "
+    },
+    {
+      "date": "June 17",
+      "name": "Eat Your Vegetables Day",
+      "keyword": "veggies",
+      "blurb": "Try today to have veggies with each meal. They also make the perfect snack."
+    },
+    {
+      "date": "June 18",
+      "name": "Picnic Day",
+      "keyword": "picnic",
+      "blurb": "Watch out for ants."
+    },
+    {
+      "date": "June 19",
+      "name": "Sauntering Day",
+      "keyword": "saunter",
+      "blurb": "A slow, confident walk, change up your stride today."
+    },
+    {
+      "date": "June 21",
+      "name": "Daylight Appreciation Day",
+      "keyword": "daylight",
+      "blurb": "Spend the day outside and celebrate the solstice."
+    },
+    {
+      "date": "June 22",
+      "name": "Take Your Dog to Work Day",
+      "keyword": "dog-work",
+      "blurb": "Who doesn't love an office dog. Helps if your dog is well-trained and friendly."
+    },
+    {
+      "date": "June 22",
+      "name": "Onion Ring Day",
+      "keyword": "onion-ring",
+      "blurb": "The fun way to eat veggies."
+    },
+    {
+      "date": "June 23",
+      "name": "Typewriter Day",
+      "keyword": "typewriter",
+      "blurb": "Our modern keyboards owe a lot to the typewriter, but aren't half as mechanically satisfying."
+    },
+    {
+      "date": "June 24",
+      "name": "Swim a Lap Day",
+      "keyword": "swim-lap",
+      "blurb": "An easy way to get a full body workout in."
+    },
+    {
+      "date": "June 25",
+      "name": "Please Take my Children to Work Day",
+      "keyword": "kids-work",
+      "blurb": "The idea is to have someone take your kids off your hands so you can focus on work. Remote workers know what's up."
+    },
+    {
+      "date": "June 26",
+      "name": "Chocolate Pudding Day",
+      "keyword": "chocolate-pudding",
+      "blurb": "Decadent and endlessly customizable."
+    },
+    {
+      "date": "June 27",
+      "name": "Helen Keller Day",
+      "keyword": "hellen-keller",
+      "blurb": "Birthday of the author, activist and trailblazer."
+    },
+    {
+      "date": "June 28",
+      "name": "Fairy Day",
+      "keyword": "fairy",
+      "blurb": "Fairies bring good luck wherever they go."
+    },
+    {
+      "date": "June 29",
+      "name": "Camera Day",
+      "keyword": "camera",
+      "blurb": "Take at least one great photo today."
+    },
+    {
+      "date": "June 30",
+      "name": "Meteor Watch Day",
+      "keyword": "meteor",
+      "blurb": "Research when the next meteor shower is taking place or simply stargaze and hope."
+    },
+    {
+      "name": "July"
+    },
+    {
+      "date": "July 1",
+      "name": "Joke Day",
+      "keyword": "joke",
+      "blurb": "A man says to his doctor, 'Help! I'm addicted to Twitter!' The doctor says, 'Sorry, I don't follow you...'"
+    },
+    {
+      "date": "July 2",
+      "name": "I Forgot Day",
+      "keyword": "forget",
+      "blurb": "Two tasks today: apologize for things you've forgot and set reminders for next time."
+    },
+    {
+      "date": "July 2",
+      "name": "UFO Day",
+      "keyword": "ufo",
+      "blurb": "The odds are pretty good today will be the day they show up and ask for all our French fries."
+    },
+    {
+      "date": "July 3",
+      "name": "Compliment Your Mirror Day",
+      "keyword": "mirror",
+      "blurb": "Don't go full Narcissus, but find something in the mirror and appreciate it."
+    },
+    {
+      "date": "July 3",
+      "name": "Plastic Bag Free Day",
+      "keyword": "plastic-bag",
+      "blurb": "More places are banning these, so might as well make the change now."
+    },
+    {
+      "date": "July 4",
+      "name": "Sidewalk Egg Frying Day",
+      "keyword": "sidewalk-egg",
+      "blurb": "More of a saying than an actual thing you could do, there is a contest in Arizona."
+    },
+    {
+      "date": "July 5",
+      "name": "Bikini Day",
+      "keyword": "bikini",
+      "blurb": "Buy a new bikini and get to the beach."
+    },
+    {
+      "date": "July 6",
+      "name": "Kissing Day",
+      "keyword": "kissing",
+      "blurb": "Try out the French greeting Faire la bise (a kiss on the check) today."
+    },
+    {
+      "date": "July 7",
+      "name": "Tell the Truth Day",
+      "keyword": "truth",
+      "blurb": "Harder than it sounds. No lies (no matter how small) allowed today."
+    },
+    {
+      "date": "July 8",
+      "name": "Video Games Day",
+      "keyword": "video-game",
+      "blurb": "Up, Up, Down, Down, Left, Right, Left, Right, B, A"
+    },
+    {
+      "date": "July 9",
+      "name": "Sugar Cookie Day",
+      "keyword": "sugar-cookie",
+      "blurb": "It's the cookie batter before you add other things, but sometimes that's all you need."
+    },
+    {
+      "date": "July 10",
+      "name": "Kitten Day",
+      "keyword": "kittens",
+      "blurb": "Visit your local animal shelter and give a great home to a kitty in need."
+    },
+    {
+      "date": "July 11",
+      "name": "Cheer Up the Lonely Day",
+      "keyword": "lonely",
+      "blurb": "It's amazing how a friendly greeting can change a person's day."
+    },
+    {
+      "date": "July 12",
+      "name": "Simplicity Day",
+      "keyword": "simple",
+      "blurb": "Focus on the one or two takes you must complete today and don't worry about anything else."
+    },
+    {
+      "date": "July 13",
+      "name": "Embrace Your Geekness Day",
+      "keyword": "geek",
+      "blurb": "1f u c4n r34d th1s u r34lly 4r3 @ g33k."
+    },
+    {
+      "date": "July 14",
+      "name": "Pandemonium Day",
+      "keyword": "pandemonium",
+      "blurb": "Some ideas: spontaneous dancing, grocery cart battles, glitter bombs."
+    },
+    {
+      "date": "July 15",
+      "name": "Gummi Worm Day",
+      "keyword": "gummy-worm",
+      "blurb": "Make sure the worms you eat are actually in gummi form."
+    },
+    {
+      "date": "July 16",
+      "name": "Snake Day",
+      "keyword": "snake",
+      "blurb": "Ssssssssss."
+    },
+    {
+      "date": "July 17",
+      "name": "Emoji Day",
+      "keyword": "emoji",
+      "blurb": "Answer all texts today only with emoji. 😀"
+    },
+    {
+      "date": "July 18",
+      "name": "Hot Dog Day",
+      "keyword": "hotdog",
+      "blurb": "The toppings make the dog."
+    },
+    {
+      "date": "July 19",
+      "name": "Stick Out Your Tongue Day",
+      "keyword": "tongue",
+      "blurb": "Don't get yourself into trouble."
+    },
+    {
+      "date": "July 20",
+      "name": "Moon Day",
+      "keyword": "moon",
+      "blurb": "Earth's cooler and younger sibling, see if you can spot it during daylight."
+    },
+    {
+      "date": "July 21",
+      "name": "Junk Food Day",
+      "keyword": "junk-food",
+      "blurb": "We love it. We hate it. Its name is close to garbage but dang if we don't have an excuse to indulge today."
+    },
+    {
+      "date": "July 22",
+      "name": "Hammock Day",
+      "keyword": "hammock",
+      "blurb": "If you don't injure youself getting in, hammocks are amazing."
+    },
+    {
+      "date": "July 23",
+      "name": "Vanilla Ice Cream Day",
+      "keyword": "vanilla-ice-cream",
+      "blurb": "The perfect complement to just about any kind of pie."
+    },
+    {
+      "date": "July 24",
+      "name": "Cousins Day",
+      "keyword": "cousins",
+      "blurb": "Siblings you don't see as often, let your cousins know how much they mean to you today."
+    },
+    {
+      "date": "July 25",
+      "name": "Culinarians Day",
+      "keyword": "cook",
+      "blurb": "Try a recipe you've never made before."
+    },
+    {
+      "date": "July 26",
+      "name": "Uncle and Aunt Day",
+      "keyword": "uncle-aunt",
+      "blurb": "Like parents but cooler."
+    },
+    {
+      "date": "July 27",
+      "name": "Take your Pants for a Walk Day",
+      "keyword": "pants",
+      "blurb": "Walk to a nearby place you would normally drive."
+    },
+    {
+      "date": "July 28",
+      "name": "Milk Chocolate Day",
+      "keyword": "milk-chocolate",
+      "blurb": "Grab that candy bar in the check-out line guilt-free today."
+    },
+    {
+      "date": "July 29",
+      "name": "Lasagna Day",
+      "keyword": "lasagne",
+      "blurb": "The layered Italian dish which is never not a delight."
+    },
+    {
+      "date": "July 30",
+      "name": "Cheesecake Day",
+      "keyword": "cheesecake",
+      "blurb": "It's the pie which is also a cake with the word cheese in there. By any name, get yourself a slice of this smooth heaven."
+    },
+    {
+      "date": "July 31",
+      "name": "Uncommon Musical Instrument Day",
+      "keyword": "uncommon-musical",
+      "blurb": "Suggestions: glockenspiel, flexatone, keytar"
+    },
+    {
+      "name": "August"
+    },
+    {
+      "date": "August 1",
+      "name": "Girlfriend's Day",
+      "keyword": "girlfriend",
+      "blurb": "Let her know how special he is."
+    },
+    {
+      "date": "August 2",
+      "name": "Ice Cream Sandwich Day",
+      "keyword": "ice-cream-sandwich",
+      "blurb": "An ice cream sandwich is eaten every 48 seconds. Try to cut that number in half today."
+    },
+    {
+      "date": "August 3",
+      "name": "Watermelon Day",
+      "keyword": "watermelon",
+      "blurb": "Watermelon is both a fruit and a vegetable and can relieve muscle soreness."
+    },
+    {
+      "date": "August 3",
+      "name": "Beer Day",
+      "keyword": "beer",
+      "blurb": "The third most popular drink after water and tea, beer is one of the oldest alcoholic drinks in history. Drink safely and ride home with others."
+    },
+    {
+      "date": "August 4",
+      "name": "Single Working Women's Day",
+      "keyword": "working-woman",
+      "blurb": "Take time to appreciate the struggle of the single working woman and help her in any way today."
+    },
+    {
+      "date": "August 5",
+      "name": "Sisters' Day",
+      "keyword": "sisters",
+      "blurb": "Life is better with sisters."
+    },
+    {
+      "date": "August 5",
+      "name": "Underwear Day",
+      "keyword": "underwear",
+      "blurb": "No going commando today. Wear your most comfy undies and maybe treat yourself to something new."
+    },
+    {
+      "date": "August 6",
+      "name": "Fresh Breath Day",
+      "keyword": "fresh-breath",
+      "blurb": "A holiday which seems like it should be every day, try out some new mouthwash."
+    },
+    {
+      "date": "August 7",
+      "name": "Lighthouse Day",
+      "keyword": "lighthouse",
+      "blurb": "A celebration of lighthouses, beacons, buoys and public piers."
+    },
+    {
+      "date": "August 8",
+      "name": "Happiness Happens Day",
+      "keyword": "happiness",
+      "blurb": ""
+    },
+    {
+      "date": "August 9",
+      "name": "Book Lovers Day",
+      "keyword": "book-lover",
+      "blurb": "Travel with the magic of books. Hunt a white whale or go to wizard school today."
+    },
+    {
+      "date": "August 10",
+      "name": "Lazy Day",
+      "keyword": "lazy",
+      "blurb": "Neglect any non-essential chores and try to do a little as possible."
+    },
+    {
+      "date": "August 11",
+      "name": "Son and Daughter Day",
+      "keyword": "son-daughter",
+      "blurb": ""
+    },
+    {
+      "date": "August 12",
+      "name": "Middle Child Day",
+      "keyword": "middle-child",
+      "blurb": "The middle child is first in our hearts today."
+    },
+    {
+      "date": "August 13",
+      "name": "Left-Handers Day",
+      "keyword": "left-hand",
+      "blurb": "10% of the population struggle with everyday tasks like using scissors and zipping pants."
+    },
+    {
+      "date": "August 14",
+      "name": "Creamsicle Day",
+      "keyword": "creamsicle",
+      "blurb": "Not just orange, Creamsicles can be found in blue raspberry, lime, grape, cherry and blueberry flavors."
+    },
+    {
+      "date": "August 15",
+      "name": "Relaxation Day",
+      "keyword": "relaxation",
+      "blurb": ""
+    },
+    {
+      "date": "August 16",
+      "name": "Wave at Security Cameras Day",
+      "keyword": "security-cam",
+      "blurb": "Give security guards something to smile about."
+    },
+    {
+      "date": "August 17",
+      "name": "Thrift Shop Day",
+      "keyword": "thrift-shop",
+      "blurb": "Some of the most amazing items can be found at the local thrift shop for ridiculously low prices."
+    },
+    {
+      "date": "August 18",
+      "name": "Fajita Day",
+      "keyword": "fajita",
+      "blurb": "Let the sizzle of the cast iron pan be your soundtrack to this day."
+    },
+    {
+      "date": "August 19",
+      "name": "Photo Day",
+      "keyword": "photo",
+      "blurb": "Make a photo album from your thousands of digital files."
+    },
+    {
+      "date": "August 20",
+      "name": "Lemonade Day",
+      "keyword": "lemonade",
+      "blurb": ""
+    },
+    {
+      "date": "August 21",
+      "name": "Spumoni Day",
+      "keyword": "spumoni",
+      "blurb": "Real spumoni is sliced not scooped."
+    },
+    {
+      "date": "August 22",
+      "name": "Be an Angel Day",
+      "keyword": "angel",
+      "blurb": "Suggestions: pay for someone else's groceries, give blood, or bring someone a meal who could use it."
+    },
+    {
+      "date": "August 23",
+      "name": "Ride Like the Wind Day",
+      "keyword": "plane",
+      "blurb": "A tribute to the pioneers of flight. Remember not to take air travel for granted."
+    },
+    {
+      "date": "August 24",
+      "name": "Pluto Demoted Day",
+      "keyword": "pluto",
+      "blurb": "Pluto is still a planet in our hearts."
+    },
+    {
+      "date": "August 25",
+      "name": "Kiss and Make up Day",
+      "keyword": "kiss",
+      "blurb": "The only silver lining when a couple fights is the eventual make up."
+    },
+    {
+      "date": "August 26",
+      "name": "Dog Appreciation Day",
+      "keyword": "dog",
+      "blurb": ""
+    },
+    {
+      "date": "August 27",
+      "name": "Just Because Day",
+      "keyword": "just-because",
+      "blurb": ""
+    },
+    {
+      "date": "August 28",
+      "name": "Bow Tie Day",
+      "keyword": "bowtie",
+      "blurb": "The necktie's whimsical and retro cousin, the bowtie adds a little class to any outfit."
+    },
+    {
+      "date": "August 29",
+      "name": "More Herbs, Less Salt Day",
+      "keyword": "herb2",
+      "blurb": "Suggestions: cumin, cayenne, paprika, black pepper, oregano."
+    },
+    {
+      "date": "August 30",
+      "name": "Frankenstein Day",
+      "keyword": "frankenstein",
+      "blurb": "More misunderstood than evil, Frankenstein was the name of the doctor who created the monster."
+    },
+    {
+      "date": "August 31",
+      "name": "Eat Outside Day",
+      "keyword": "eat-outside",
+      "blurb": "While you could lay out a full picnic, just taking your lunch and sitting in the grass works too."
+    },
+    {
+      "name": "September"
+    },
+    {
+      "date": "September 1",
+      "name": "Chess Day",
+      "keyword": "chess",
+      "blurb": "The number of possible unique chess games is greater than the number of electrons in the universe."
+    },
+    {
+      "date": "September 1",
+      "name": "No Rhyme or Reason Day",
+      "keyword": "no-reason",
+      "blurb": "Do things happen for no reason or does it seem that way because we can't yet perecive the reason? Zeppelin xylophone."
+    },
+    {
+      "date": "September 2",
+      "name": "Coconut Day",
+      "keyword": "coconut",
+      "blurb": "",
+      "music": "'Coconut' by Harry Nilsson"
+    },
+    {
+      "date": "September 3",
+      "name": "Skyscraper Day",
+      "keyword": "skyscaper",
+      "blurb": "Take an elevator to the top of the tallest building you can find and admire the view."
+    },
+    {
+      "date": "September 4",
+      "name": "Eat an Extra Dessert Day",
+      "keyword": "extra-dessert",
+      "blurb": ""
+    },
+    {
+      "date": "September 5",
+      "name": "Be Late for Something Day",
+      "keyword": "late",
+      "blurb": ""
+    },
+    {
+      "date": "September 5",
+      "name": "Cheese Pizza Day",
+      "keyword": "cheese-pizza",
+      "blurb": ""
+    },
+    {
+      "date": "September 6",
+      "name": "Fight Procrastination Day",
+      "keyword": "procrastination",
+      "blurb": ""
+    },
+    {
+      "date": "September 6",
+      "name": "Read a Book Day",
+      "keyword": "read-book",
+      "blurb": ""
+    },
+    {
+      "date": "September 7",
+      "name": "Salami Day",
+      "keyword": "salami",
+      "blurb": ""
+    },
+    {
+      "date": "September 8",
+      "name": "German Language Day",
+      "keyword": "german",
+      "blurb": ""
+    },
+    {
+      "date": "September 9",
+      "name": "Teddy Bear Day",
+      "keyword": "teddy-bear",
+      "blurb": ""
+    },
+    {
+      "date": "September 10",
+      "name": "Swap Ideas Day",
+      "keyword": "swap-idea",
+      "blurb": "Can lead to approaches and twists you never would have come up with."
+    },
+    {
+      "date": "September 11",
+      "name": "Make Your Bed Day",
+      "keyword": "bed",
+      "blurb": "Level up your adulting skills."
+    },
+    {
+      "date": "September 12",
+      "name": "Chocolate Milkshake Day",
+      "keyword": "milkshake",
+      "blurb": ""
+    },
+    {
+      "date": "September 13",
+      "name": "Positive Thinking Day",
+      "keyword": "positive",
+      "blurb": ""
+    },
+    {
+      "date": "September 13",
+      "name": "Roald Dahl Day",
+      "keyword": "dahl",
+      "blurb": "An author of delightful stories anyone can enjoy.",
+      "music": "'Pure Imagination' by Gene Wilder"
+    },
+    {
+      "date": "September 14",
+      "name": "Coloring Day",
+      "keyword": "coloring",
+      "blurb": "No one is too old to enjoy coloring. "
+    },
+    {
+      "date": "September 15",
+      "name": "Clean Up Day",
+      "keyword": "clean-up",
+      "blurb": ""
+    },
+    {
+      "date": "September 15",
+      "name": "Make a Hat Day",
+      "keyword": "make-hat",
+      "blurb": "Straw. Paper. Bowl. Pick your material and put it on your noggin."
+    },
+    {
+      "date": "September 16",
+      "name": "Collect Rocks Day",
+      "keyword": "collect-rocks",
+      "blurb": ""
+    },
+    {
+      "date": "September 16",
+      "name": "Guacamole Day",
+      "keyword": "guacamole",
+      "blurb": ""
+    },
+    {
+      "date": "September 17",
+      "name": "Country Music Day",
+      "keyword": "country-music",
+      "blurb": "Clever wordplay and empathy are the hallmarks of this great genre.",
+      "music": "'I'm So Lonesome I Could Cry' by Hank Williams, Sr."
+    },
+    {
+      "date": "September 18",
+      "name": "Respect Day",
+      "keyword": "respect",
+      "blurb": "Everyone deserves respect."
+    },
+    {
+      "date": "September 19",
+      "name": "Gymnastics Day",
+      "keyword": "gymnastics",
+      "blurb": ""
+    },
+    {
+      "date": "September 19",
+      "name": "Talk Like a Pirate Day",
+      "keyword": "pirate",
+      "blurb": "Don't go over the top. Just throw a few 'arg's into conversation without explaining why until later."
+    },
+    {
+      "date": "September 20",
+      "name": "Punch Day",
+      "keyword": "punch",
+      "blurb": "The kind you drink, please."
+    },
+    {
+      "date": "September 21",
+      "name": "Miniature Golf Day",
+      "keyword": "mini-golf",
+      "blurb": "Show that windmill who's boss."
+    },
+    {
+      "date": "September 22",
+      "name": "Hobbit Day",
+      "keyword": "hobbit",
+      "blurb": "Look past the hairy feet to the open-mindedness and pure hearts of the hobbits."
+    },
+    {
+      "date": "September 23",
+      "name": "Checkers Day",
+      "keyword": "checkers",
+      "blurb": "The more action-packed version of chess."
+    },
+    {
+      "date": "September 24",
+      "name": "Punctuation Day",
+      "keyword": "exclamation",
+      "blurb": ""
+    },
+    {
+      "date": "September 25",
+      "name": "Comic Book Day",
+      "keyword": "comic-book2",
+      "blurb": ""
+    },
+    {
+      "date": "September 26",
+      "name": "Love Note Day",
+      "keyword": "love-note",
+      "blurb": "Everyone enjoys a good love note...as long as it's not creepy."
+    },
+    {
+      "date": "September 27",
+      "name": "Crush a Can Day",
+      "keyword": "can",
+      "blurb": "Feet or can crushers only. Leave your poor forehead alone."
+    },
+    {
+      "date": "September 28",
+      "name": "Ask a Stupid Question Day",
+      "keyword": "stupid",
+      "blurb": "This can be a question no one else is brave enough to ask."
+    },
+    {
+      "date": "September 28",
+      "name": "Good Neighbor Day",
+      "keyword": "good-neighbor",
+      "blurb": ""
+    },
+    {
+      "date": "September 30",
+      "name": "Hot Mulled Cider Day",
+      "keyword": "cider",
+      "blurb": ""
+    },
+    {
+      "name": "October"
+    },
+    {
+      "date": "October 1",
+      "name": "Balloons Around the World Day",
+      "keyword": "balloons",
+      "blurb": "Bonus points if you get your hands on 99 red ones.",
+      "music": "'99 Red Balloons' by Nena"
+    },
+    {
+      "date": "October 2",
+      "name": "Non-Violence Day",
+      "keyword": "peace",
+      "blurb": "",
+      "music": "'Give Peace a Chance' by Plastic Ono Band"
+    },
+    {
+      "date": "October 3",
+      "name": "Boyfriend Day",
+      "keyword": "boyfriend",
+      "blurb": ""
+    },
+    {
+      "date": "October 4",
+      "name": "Taco Day",
+      "keyword": "taco",
+      "blurb": "In a year Americans eat 4.5 million tacos."
+    },
+    {
+      "date": "October 5",
+      "name": "Smile Day",
+      "keyword": "smile",
+      "blurb": ""
+    },
+    {
+      "date": "October 5",
+      "name": "Do Something Nice Day",
+      "keyword": "do-nice",
+      "blurb": ""
+    },
+    {
+      "date": "October 6",
+      "name": "Card Making Day",
+      "keyword": "card-making",
+      "blurb": ""
+    },
+    {
+      "date": "October 6",
+      "name": "Mad Hatter Day",
+      "keyword": "mad-hatter",
+      "blurb": ""
+    },
+    {
+      "date": "October 7",
+      "name": "Frappé Day",
+      "keyword": "frappe",
+      "blurb": ""
+    },
+    {
+      "date": "October 8",
+      "name": "Pierogi Day",
+      "keyword": "pierogi",
+      "blurb": ""
+    },
+    {
+      "date": "October 9",
+      "name": "Curious Events Day",
+      "keyword": "curious",
+      "blurb": ""
+    },
+    {
+      "date": "October 10",
+      "name": "Handbag Day",
+      "keyword": "handbag",
+      "blurb": ""
+    },
+    {
+      "date": "October 11",
+      "name": "It's My Party Day",
+      "keyword": "my-party",
+      "blurb": ""
+    },
+    {
+      "date": "October 12",
+      "name": "Farmers Day",
+      "keyword": "farmer",
+      "blurb": ""
+    },
+
+    {
+      "date": "October 13",
+      "name": "Skeptics Day",
+      "keyword": "skeptic",
+      "blurb": ""
+    },
+    {
+      "date": "October 14",
+      "name": "Dessert Day",
+      "keyword": "dessert",
+      "blurb": ""
+    },
+
+    {
+      "date": "October 15",
+      "name": "Clean Out Your Virtual Desktop Day",
+      "keyword": "clean-desktop",
+      "blurb": ""
+    },
+    {
+      "date": "October 16",
+      "name": "Dictionary Day",
+      "keyword": "dictionary",
+      "blurb": "Learn a new word and causally drop it into conversation."
+    },
+    {
+      "date": "October 17",
+      "name": "Wear Something Gaudy Day",
+      "keyword": "gaudy",
+      "blurb": ""
+    },
+    {
+      "date": "October 18",
+      "name": "Chocolate Cupcake Day",
+      "keyword": "chocolate-cupcake",
+      "blurb": ""
+    },
+    {
+      "date": "October 19",
+      "name": "New Friends Day",
+      "keyword": "new-friends",
+      "blurb": "Meet new friends by volunteering or at a meetup for a hobby you enjoy."
+    },
+
+    {
+      "date": "October 20",
+      "name": "Sweetest Day",
+      "keyword": "sweetest",
+      "blurb": "Do something nice for your special someone or let your crush know how you feel."
+    },
+    {
+      "date": "October 20",
+      "name": "Sloth Day",
+      "keyword": "sloth",
+      "blurb": "If they moved even a little faster, they may not be as cute."
+    },
+    {
+      "date": "October 21",
+      "name": "Count your Buttons Day",
+      "keyword": "buttons",
+      "blurb": "You may be surprised how many buttons you interact with during the day."
+    },
+    {
+      "date": "October 22",
+      "name": "Caps Lock Day",
+      "keyword": "caps-lock",
+      "blurb": "Tone is often lost with electronic communications, so use with caution."
+    },
+    {
+      "date": "October 23",
+      "name": "TV Talk Show Host Day",
+      "keyword": "tv",
+      "blurb": "You get a car! You get a car! You get a car!"
+    },
+    {
+      "date": "October 24",
+      "name": "Bologna Day",
+      "keyword": "bologna",
+      "blurb": "Comes in many more varieties than the pre-sliced version."
+    },
+    {
+      "date": "October 25",
+      "name": "Pasta Day",
+      "keyword": "pasta",
+      "blurb": "Try some new noodle and sauce combinations."
+    },
+    {
+      "date": "October 26",
+      "name": "Pumpkin Day",
+      "keyword": "pumpkin",
+      "blurb": "Visit a pumpkin patch near you."
+    },
+    {
+      "date": "October 27",
+      "name": "Black Cat Day",
+      "keyword": "black-cat",
+      "blurb": "In some cultures black cats are actually good luck."
+    },
+    {
+      "date": "October 28",
+      "name": "Animation Day",
+      "keyword": "animation",
+      "blurb": "From Looney Tunes to Studio Ghibli, animation transports us to worlds nothing like our own."
+    },
+    {
+      "date": "October 29",
+      "name": "Internet Day",
+      "keyword": "internet",
+      "blurb": "Has it benefitted to harmed humanity? Time will tell."
+    },
+    {
+      "date": "October 30",
+      "name": "Candy Corn Day",
+      "keyword": "candy-corn",
+      "blurb": "Good in small amounts once a year."
+    },
+    {
+      "date": "October 31",
+      "name": "Magic Day",
+      "keyword": "magic",
+      "blurb": "Pull a rabbit out of a hat."
+    },
+    {
+      "name": "November"
+    },
+    {
+      "date": "November 1",
+      "name": "Author's Day",
+      "keyword": "author",
+      "blurb": "Start your autobiography."
+    },
+    {
+      "date": "November 1",
+      "name": "Men Make Dinner Day",
+      "keyword": "men-cook",
+      "blurb": "Guys, get out of your comfort zone of grilled cheese and burgers. Ladies, give your men the help and advice they will surely need."
+    },
+    {
+      "date": "November 2",
+      "name": "Deviled Eggs Day",
+      "keyword": "devil-egg",
+      "blurb": "Not as evil as they sound."
+    },
+    {
+      "date": "November 3",
+      "name": "Sandwich Day",
+      "keyword": "sandwich",
+      "blurb": "One of the most versatile foods on Earth."
+    },
+    {
+      "date": "November 4",
+      "name": "Candy Day",
+      "keyword": "candy",
+      "blurb": "Everyone has a favorite. We recommend Atkinson's Peanut Butter Bars."
+    },
+    {
+      "date": "November 4",
+      "name": "Common Sense Day",
+      "keyword": "common-sense",
+      "blurb": "Celebrates Will Rogers who said, 'Common sense ain't common.'"
+    },
+    {
+      "date": "November 5",
+      "name": "American Football Day",
+      "keyword": "football",
+      "blurb": "Don't get a penalty for excessive celebration.",
+      "song": "Autumn Thunder: 40 Years of NFL Films Music"
+    },
+    {
+      "date": "November 6",
+      "name": "Saxophone Day",
+      "keyword": "sax",
+      "blurb": "Adds a little stronk to any song."
+    },
+    {
+      "date": "November 7",
+      "name": "Bittersweet Chocolate with Almonds Day",
+      "keyword": "chocolate-almonds",
+      "blurb": "Both dark chocolate and almonds have amazing health benefits."
+    },
+    {
+      "date": "November 8",
+      "name": "Cook Something Bold and Pungent Day",
+      "keyword": "cook-bold",
+      "blurb": "A little cayenne pepper is always welcome."
+    },
+    {
+      "date": "November 9",
+      "name": "Chaos Never Dies Day",
+      "keyword": "chaos",
+      "blurb": "No matter how careful you plan, chaos will have its say."
+    },
+    {
+      "date": "November 10",
+      "name": "Forget Me Not Day",
+      "keyword": "forget-me-not",
+      "blurb": "A day to reconnect with people you've lost touch with."
+    },
+    {
+      "date": "November 10",
+      "name": "Vanilla Cupcake Day",
+      "keyword": "vanilla-cupcake",
+      "blurb": "The smooth, subtle flavor of vanilla cupcakes is highly underrated."
+    },
+    {
+      "date": "November 11",
+      "name": "Origami Day",
+      "keyword": "origami",
+      "blurb": "Folding paper can lead to some amazing results."
+    },
+    {
+      "date": "November 12",
+      "name": "Happy Hour Day",
+      "keyword": "happy-hour",
+      "blurb": "It's always happy hour somewhere, but today's it's all day for everyone."
+    },
+    {
+      "date": "November 13",
+      "name": "Kindness Day",
+      "keyword": "kindness2",
+      "blurb": "Look at this day as practice for what every day should be like. Be kind to someone you normally aren't."
+    },
+    {
+      "date": "November 14",
+      "name": "Pickle Day",
+      "keyword": "pickle",
+      "blurb": "The evil cucumber."
+    },
+    {
+      "date": "November 15",
+      "name": "Clean Out Your Refrigerator Day",
+      "keyword": "fridge",
+      "blurb": "That container of cottage cheese isn’t getting any fresher."
+    },
+    {
+      "date": "November 15",
+      "name": "Use Less Stuff Day",
+      "keyword": "stuff",
+      "blurb": "Avoid the excessive packaging of fast food. Give away some old possessions. "
+    },
+    {
+      "date": "November 16",
+      "name": "Fast Food Day",
+      "keyword": "fast-food",
+      "blurb": "Breakfast is the best kind."
+    },
+    {
+      "date": "November 17",
+      "name": "Take A Hike Day",
+      "keyword": "hike",
+      "blurb": "Get out of the city and into some nature."
+    },
+    {
+      "date": "November 18",
+      "name": "Mickey Mouse Day",
+      "keyword": "mickey-mouse",
+      "blurb": "From Steamboat Willie to Mickey Mouse Clubhouse, try to capture Mickey's carefree spirit."
+    },
+    {
+      "date": "November 19",
+      "name": "Men's Day",
+      "keyword": "men",
+      "blurb": "Men: health checkups are ok. Also, dress nicer."
+    },
+
+    {
+      "date": "November 20",
+      "name": "Absurdity Day",
+      "keyword": "absurd",
+      "blurb": "Cars drive on parkways and park on driveways."
+    },
+    {
+      "date": "November 21",
+      "name": "Hello Day",
+      "keyword": "hello",
+      "blurb": "Hello World",
+      "music": "'Hello' by Lionel Ritchie"
+    },
+    {
+      "date": "November 22",
+      "name": "Go For a Ride Day",
+      "keyword": "ride",
+      "blurb": "Have a friend with a motorcycle or your own bike? Put some air in those tires and get out there."
+    },
+    {
+      "date": "November 23",
+      "name": "Fibonacci Day",
+      "keyword": "spiral",
+      "blurb": "Sketch out this spiral and try to find examples throughout your day."
+    },
+    {
+      "date": "November 23",
+      "name": "Buy Nothing Day",
+      "keyword": "buy-nothing",
+      "blurb": "It can be quite challenging to spend no money for 24 hours."
+    },
+    {
+      "date": "November 24",
+      "name": "Celebrate Your Unique Talent Day",
+      "keyword": "talent",
+      "blurb": "Everyone has a special talent of some kind. Today's your day to show it off."
+    },
+    {
+      "date": "November 25",
+      "name": "Shopping Reminder Day",
+      "keyword": "shopping-reminder",
+      "blurb": "One month until Christmas!"
+    },
+    {
+      "date": "November 26",
+      "name": "Cake Day",
+      "keyword": "cake",
+      "blurb": "Today there is cake."
+    },
+    {
+      "date": "November 27",
+      "name": "Pins and Needles Day",
+      "keyword": "needles",
+      "blurb": "Celebrate clothes makers/menders and seek out the Broadway play."
+    },
+
+    {
+      "date": "November 28",
+      "name": "Red Planet Day",
+      "keyword": "mars",
+      "blurb": "A future home for humans?"
+    },
+    {
+      "date": "November 29",
+      "name": "Square Dance Day",
+      "keyword": "square-dance",
+      "blurb": "Some square dance calls: Do Si Do, Promenade, and Box the Gnat."
+    },
+    {
+      "date": "November 30",
+      "name": "Computer Security Day",
+      "keyword": "computer-security",
+      "blurb": "Update or install antivirus software and ignore any fishy emails."
+    },
+    {
+      "name": "December"
+    },
+    {
+      "date": "December 1",
+      "name": "Eat a Red Apple Day",
+      "keyword": "red-apple",
+      "blurb": "A simple and delicious day to observe. Bring one for a friend."
+    },
+    {
+      "date": "December 2",
+      "name": "Fritters Day",
+      "keyword": "fritters",
+      "blurb": "Not just for apples!"
+    },
+    {
+      "date": "December 3",
+      "name": "Make a Gift Day",
+      "keyword": "make-gift",
+      "blurb": "Handmade = made with love"
+    },
+    {
+      "date": "December 4",
+      "name": "Wear Brown Shoes Day",
+      "keyword": "brown-shoes",
+      "blurb": "Good excuse to get a new pair."
+    },
+    {
+      "date": "December 5",
+      "name": "Day of the Ninja",
+      "keyword": "ninja",
+      "blurb": "No one sees this day coming."
+    },
+    {
+      "date": "December 6",
+      "name": "Put on Your Own Shoes Day",
+      "keyword": "shoes",
+      "blurb": "A day to teach the young among us to put their own shoes on."
+    },
+    {
+      "date": "December 6",
+      "name": "Microwave Oven Day",
+      "keyword": "microwave",
+      "blurb": "Hot food for lazy people."
+    },
+    {
+      "date": "December 7",
+      "name": "Letter Writing Day",
+      "keyword": "letter",
+      "blurb": "Writing a letter in a world of texts and emails just feels more special."
+    },
+    {
+      "date": "December 8",
+      "name": "Pretend to Be a Time Traveler Day",
+      "keyword": "time-travel",
+      "blurb": "Scoff at today's technology and marvel at the clothes you see people wearing."
+    },
+    {
+      "date": "December 9",
+      "name": "Christmas Card Day",
+      "keyword": "christmas-card",
+      "blurb": "If you haven't sent them out yet, make it to the post office today."
+    },
+
+    {
+      "date": "December 10",
+      "name": "Human Rights Day",
+      "keyword": "human-rights",
+      "blurb": "Learn the 7 human rights."
+    },
+    {
+      "date": "December 11",
+      "name": "Mountain Day",
+      "keyword": "mountain",
+      "blurb": "More than half the world's fresh water originates in mountains."
+    },
+    {
+      "date": "December 12",
+      "name": "Poinsettia Day",
+      "keyword": "Poinsettia",
+      "blurb": "One ranch in California grows over 70% of all Poinsettias purchased in the United States"
+    },
+    {
+      "date": "December 13",
+      "name": "Ice Cream Day",
+      "keyword": "ice-cream",
+      "blurb": "As many scoops as you can stack."
+    },
+    {
+      "date": "December 14",
+      "name": "Monkey Day",
+      "keyword": "monkey",
+      "blurb": "Do we like monkeys because they remind us of humans or do we want to be more like them?"
+    },
+    {
+      "date": "December 15",
+      "name": "Lemon Cupcake Day",
+      "keyword": "lemon-cupcake",
+      "blurb": "You shouldn't make them without zest."
+    },
+
+    {
+      "date": "December 16",
+      "name": "Chocolate Covered Anything Day",
+      "keyword": "chocolate-anything",
+      "blurb": "You could cover chocolate with chocolate and be good to go."
+    },
+    {
+      "date": "December 17",
+      "name": "Wright Brothers Day",
+      "keyword": "wright-brothers",
+      "blurb": "Pioneers in flight. Follow in their footsteps by booking an introductory flying course."
+    },
+    {
+      "date": "December 18",
+      "name": "Arabic Language Day",
+      "keyword": "arabic",
+      "blurb": "The origin for tons of English language words such as Algebra, Giraffe, and Orange."
+    },
+
+    {
+      "date": "December 19",
+      "name": "Look for an Evergreen Day",
+      "keyword": "evergreen",
+      "blurb": "they'll likely be the only green trees left."
+    },
+    {
+      "date": "December 20",
+      "name": "Sangria Day",
+      "keyword": "sangria",
+      "blurb": "Easy to make at home with just six ingredients."
+    },
+    {
+      "date": "December 21",
+      "name": "Ugly Sweater Day",
+      "keyword": "ugly-sweater",
+      "blurb": "Are they ugly or so ugly they're beautiful?"
+    },
+
+    {
+      "date": "December 22",
+      "name": "Cookie Exchange Day",
+      "keyword": "cookie-exchange",
+      "blurb": "A cookie-based economy is change we can get behind."
+    },
+    {
+      "date": "December 23",
+      "name": "Roots Day",
+      "keyword": "roots",
+      "blurb": "Trace your family history as far back as you can."
+    },
+    {
+      "date": "December 24",
+      "name": "Eggnog Day",
+      "keyword": "eggnog",
+      "blurb": "Be sure to get some bourbon in there."
+    },
+    {
+      "date": "December 25",
+      "name": "Pumpkin Pie Day",
+      "keyword": "pumpkin-pie",
+      "blurb": "One the easiest pies to make at home."
+    },
+
+    {
+      "date": "December 26",
+      "name": "Thank You Note Day",
+      "keyword": "thank-you",
+      "blurb": "Thank you for using the Everyday Holidays app."
+    },
+    {
+      "date": "December 27",
+      "name": "Make Cut-Out Snowflakes Day",
+      "keyword": "snowflake",
+      "blurb": "Make it snow indoors or bring snow to the warmer climates.",
+      "music": "'Purple Snowflakes' by Marvin Gaye"
+    },
+    {
+      "date": "December 28",
+      "name": "Card Playing Day",
+      "keyword": "cards",
+      "blurb": "Breaks out the cards for games like Go Fish, UNO, Poker and Gin Rummy."
+    },
+    {
+      "date": "December 29",
+      "name": "Pepper Pot Day",
+      "keyword": "pepper-pot",
+      "blurb": "This signature Philadelphia dish is made up of beef tripe, vegetables, pepper and other seasonings."
+    },
+    {
+      "date": "December 30",
+      "name": "Bacon Day",
+      "keyword": "bacon",
+      "blurb": "Bacon's so good it feels like it should be illegal."
+    },
+    {
+      "date": "December 31",
+      "name": "Champagne Day",
+      "keyword": "champagne",
+      "blurb": "There are 49 million bubbles in a standard sized bottle of champagne.",
+      "music": "'Tiny Bubbles' by Don Ho"
     }
+
   ]
 }

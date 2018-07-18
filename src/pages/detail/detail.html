@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar color="secondary">
 
 
     <ion-buttons end>
@@ -19,26 +19,49 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
 
 
 
-  <ion-card *ngFor="let h of data?.holidays  | search: hName ">
-    <img src="https://source.unsplash.com/{{h.keyword}}">
-
-    <ion-card-header text-wrap>
-      <h2>{{h.name}}</h2>
-    </ion-card-header>
-
-    <ion-card-content>
-      <p>{{h.blurb}}</p>
-    </ion-card-content>
+  <ion-card color="danger" *ngFor="let h of data?.holidays  | search: hName : true ">
 
 
-    <ion-buttons end>
-      <button ion-button (click)="addToCalendar(h)">Add To Calendar</button>
-    </ion-buttons>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-12 col-sm>
+          <img src="assets/imgs/{{h.keyword}}.jpg" />
+
+        </ion-col>
+        <ion-col col-12 col-sm>
+          <ion-card-header text-wrap>
+            <h2>{{h.name}}</h2>
+            <br />
+            <p>{{h.blurb}}</p>
+
+          </ion-card-header>
+        </ion-col>
+        <ion-col col-12 col-sm>
+          <ion-card-content>
+
+
+            <ion-buttons full>
+              <button ion-button small round icon-start (click)="share(h)">
+                <ion-icon name="share"></ion-icon>
+                &nbsp;Share</button>
+
+              <button color="orange" ion-button round small icon-start (click)="addToCalendar(h)">
+                <ion-icon name="add-circle"></ion-icon>
+                &nbsp;Add Calendar</button>
+            </ion-buttons>
+
+          </ion-card-content>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+
   </ion-card>
+
 
 
 </ion-content>
