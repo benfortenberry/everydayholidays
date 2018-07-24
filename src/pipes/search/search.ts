@@ -9,7 +9,8 @@ export class SearchPipe implements PipeTransform {
   transform(items: any[], terms: string, exact: boolean): any[] {
     if (!items) return [];
     if (!terms) return items;
-    console
+
+    // console.log(items)
     terms = terms.toLowerCase();
     return items.filter(it => {
 
@@ -17,7 +18,9 @@ export class SearchPipe implements PipeTransform {
         return it.name.toLowerCase() == terms;
       }
       else {
-        return it.name.toLowerCase().includes(terms);
+
+        return (it.name.toLowerCase().includes(terms) && it.date) ||
+          (it.date.toLowerCase().includes(terms) && it.date);
       }
 
     });

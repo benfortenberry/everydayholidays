@@ -1,9 +1,10 @@
 import { DetailPage } from './../detail/detail';
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { TimeDateServiceProvider } from './../../providers/time-date-service/time-date-service';
 import { ModalController } from 'ionic-angular';
 import { ModalOptions } from 'ionic-angular';
+import * as moment from 'moment';
 
 
 @Component({
@@ -15,10 +16,29 @@ export class AboutPage {
   data: any;
 
 
-  constructor(public navCtrl: NavController, public tsProvider: TimeDateServiceProvider, public modalCtrl: ModalController) {
+  constructor(public navCtrl: NavController, public myElement: ElementRef, public tsProvider: TimeDateServiceProvider, public modalCtrl: ModalController) {
 
     this.getData();
 
+  }
+
+  ngAfterViewInit() {
+    // var elementid = moment().format('MMMM');
+    // let el = this.elRef.nativeElement;//get underlying native element.
+    // let yOffset = el.getElementById(elementid).offsetTop;
+    // console.log(el.getElementById(elementid))
+    // console.log(yOffset)
+    // console.log('after view init');
+    // var elementid = moment().format('MMMM');
+    // console.log(elementid);
+    // let element = document.getElementById(elementid)!;
+    // console.log(element);
+    // setTimeout(() => {
+    //   console.log(element);
+    //   //   let element = document.getElementById(moment().format('MMMM'));
+    //   //   element.scrollIntoView()
+    // }, 1000);
+    // document.getElementById('loginInput').value = '123344565';
   }
 
   presentProfileModal(h) {
@@ -29,14 +49,56 @@ export class AboutPage {
     let profileModal = this.modalCtrl.create(DetailPage, { holiday: h }, myModalOptions);
     profileModal.present();
   }
+  ionViewDidEnter() {
+    // console.log(document.getElementById(moment().format('M')))
+  }
+  show() {
+    // console.log(document.getElementById(moment().format('M')))
+  }
+  public ngAfterViewChecked(): void {
+    /* need _canScrollDown because it triggers even if you enter text in the textarea */
+    let element = document.getElementById(moment().format('MMMM'));
+    //console.log(element)
+
+    if (element)
+      element.scrollIntoView({ block: 'start', behavior: 'instant' })
+    // if ( this._canScrollDown() ) {
+    //     this.scrollDown();
+    // }       
+  }
 
   getData() {
     this.tsProvider.getData()
       .then(data => {
         this.data = data;
-        console.log(this.data);
+
+
+        // let element = document.getElementById(moment().format('M'));
+        // console.log(element)
+        // let elem: Element = document.getElementById("July")
+        // console.log(elem)
+        // console.log(document.getElementById('July'))
+        //   console.log(this.myElement.nativeElement.select("#July"))
+        // console.log(document.getElementsByClassName('July'));
+        // console.log(document.getElementById('July'));
+        // console.log(document.getElementsByName('July'));
+
+        // console.log(document.getElementsByClassName('July').item(0));
+        // const script = document.getElementsByClassName('July').item(0) as HTMLScriptElement
+        // console.log(script)
+        // var elements = document.getElementsByClassName('July');
+        // var requiredElement = elements[0];
+        // console.log(requiredElement)
+        // HTMLCollection.prototype.forEach = Array.prototype.forEach;
+
+
+        // console.log(x)
+        // element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
       });
   }
+
+
 
 
 }

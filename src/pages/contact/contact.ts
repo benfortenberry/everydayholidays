@@ -36,7 +36,7 @@ export class ContactPage {
     this.tsProvider.getData()
       .then(data => {
         this.data = data;
-        console.log(this.data);
+        // console.log(this.data);
       });
   }
 

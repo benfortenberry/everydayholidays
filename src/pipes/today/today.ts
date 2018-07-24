@@ -7,11 +7,11 @@ import * as moment from 'moment';
 })
 export class TodayPipe implements PipeTransform {
 
-  transform(items: any[]): any[] {
+  transform(items: any[], plusMinus: number): any[] {
     if (!items) return [];
 
     return items.filter(it => {
-      return it.date == moment().format("MMMM D");
+      return it.date == moment().add(plusMinus, 'd').format("MMMM D");
 
     });
   }

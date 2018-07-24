@@ -39,7 +39,7 @@ export class DetailPage {
     this.tsProvider.getData()
       .then(data => {
         this.data = data;
-        console.log(this.data);
+        //   console.log(this.data);
       });
   }
 
@@ -64,7 +64,7 @@ export class DetailPage {
 
     }
 
-    console.log(momentizedDate.toString())
+    //  console.log(momentizedDate.toString())
     this.calendar.createEventInteractively(this.hName, '', '', momentizedDate.toDate(), momentizedDate.add(1, 'd').toDate());
 
   }

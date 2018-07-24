@@ -1,10 +1,10 @@
+import { AboutPage } from './../about/about';
 import { TimeDateServiceProvider } from './../../providers/time-date-service/time-date-service';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import * as moment from 'moment';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { Calendar } from '@ionic-native/calendar';
-
 
 @Component({
   selector: 'page-home',
@@ -16,11 +16,27 @@ export class HomePage {
 
   date: any;
 
+  plusMinus: number = 0;
+
   constructor(public navCtrl: NavController, public tsProvider: TimeDateServiceProvider, private socialSharing: SocialSharing, private calendar: Calendar) {
 
     this.date = moment().format("MMMM D");
     this.getData();
 
+  }
+
+  goToAll() {
+    this.navCtrl.push(AboutPage)
+  }
+
+  addToDate() {
+    this.plusMinus++;
+    this.date = moment().add(this.plusMinus, 'd').format("MMMM D");
+  }
+
+  subtractFromDate() {
+    this.plusMinus--;
+    this.date = moment().add(this.plusMinus, 'd').format("MMMM D");
   }
 
   getData() {
