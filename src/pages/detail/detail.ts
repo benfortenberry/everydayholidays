@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
 import { TimeDateServiceProvider } from './../../providers/time-date-service/time-date-service';
@@ -17,7 +18,7 @@ export class DetailPage {
   hName: string;
   hDate: string;
 
-  data: any;
+  holidays: any;
 
   constructor(public navCtrl: NavController,
     public navParams: NavParams, public tsProvider: TimeDateServiceProvider, private view: ViewController, private socialSharing: SocialSharing, private calendar: Calendar) {
@@ -27,7 +28,7 @@ export class DetailPage {
     var holiday = navParams.get('holiday')
     this.hName = holiday.name;
     this.hDate = holiday.date;
-    this.getData();
+    this.getDataByName(this.hName);
 
 
 
@@ -35,10 +36,10 @@ export class DetailPage {
 
 
 
-  getData() {
-    this.tsProvider.getData()
+  getDataByName(name) {
+    this.tsProvider.getDataByName(name)
       .then(data => {
-        this.data = data;
+        this.holidays = data;
         //   console.log(this.data);
       });
   }

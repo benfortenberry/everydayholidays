@@ -27,6 +27,67 @@ export class TimeDateServiceProvider {
     });
   }
 
+  getDataByName(name) {
+    return new Promise(resolve => {
+      this.http.get(this.apiUrl).subscribe(data => {
+        // console.log(data)
+        let filteredData = [];
+        data["holidays"].forEach(element => {
+          if (element.name == name) {
+            filteredData.push(element)
+          }
+        });
+        // console.log(filteredData)
+        resolve(filteredData);
+      }, err => {
+        console.log(err);
+      });
+    });
+  }
+
+  getDataByDate(date) {
+    return new Promise(resolve => {
+      this.http.get(this.apiUrl).subscribe(data => {
+        // console.log(data)
+        let filteredData = [];
+        data["holidays"].forEach(element => {
+          if (element.date == date) {
+            filteredData.push(element)
+          }
+        });
+        // console.log(filteredData)
+        resolve(filteredData);
+      }, err => {
+        console.log(err);
+      });
+    });
+  }
+
+
+  getDataBySearch(term) {
+
+
+    term = term.toLowerCase();
+
+    return new Promise(resolve => {
+      this.http.get(this.apiUrl).subscribe(data => {
+        // console.log(data)
+        let filteredData = [];
+        data["holidays"].forEach(it => {
+          if ((it.name.toLowerCase().includes(term) && it.date) ||
+            (it.date.toLowerCase().includes(term) && it.date)) {
+            filteredData.push(it)
+          }
+        });
+        //console.log(filteredData)
+        resolve(filteredData);
+      }, err => {
+        console.log(err);
+      });
+    });
+  }
+
+
 
 
 }

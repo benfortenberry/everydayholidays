@@ -12,7 +12,7 @@ import { Calendar } from '@ionic-native/calendar';
 })
 export class HomePage {
 
-  data: any;
+  holidays: any;
 
   date: any;
 
@@ -20,8 +20,7 @@ export class HomePage {
 
   constructor(public navCtrl: NavController, public tsProvider: TimeDateServiceProvider, private socialSharing: SocialSharing, private calendar: Calendar) {
 
-    this.date = moment().format("MMMM D");
-    this.getData();
+
 
   }
 
@@ -32,17 +31,21 @@ export class HomePage {
   addToDate() {
     this.plusMinus++;
     this.date = moment().add(this.plusMinus, 'd').format("MMMM D");
+    this.getDataByDate(this.date);
+
   }
 
   subtractFromDate() {
     this.plusMinus--;
     this.date = moment().add(this.plusMinus, 'd').format("MMMM D");
+    this.getDataByDate(this.date);
+
   }
 
-  getData() {
-    this.tsProvider.getData()
+  getDataByDate(date) {
+    this.tsProvider.getDataByDate(date)
       .then(data => {
-        this.data = data;
+        this.holidays = data;
         //  console.log(this.data);
       });
   }
@@ -50,7 +53,10 @@ export class HomePage {
   share(h) {
     this.socialSharing.share("Today is " + h.name + "!", "Holidays", null, null)
   }
-
+  ionViewDidEnter() {
+    this.date = moment().format("MMMM D");
+    this.getDataByDate(this.date);
+  }
 
   addToCalendar(h) {
     var builtDate = h.date + " " + moment().year();

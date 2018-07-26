@@ -10,13 +10,13 @@
 <ion-content>
 
 
-  <ion-searchbar color="danger" [(ngModel)]="terms"></ion-searchbar>
+  <ion-searchbar color="danger" (ionInput)="doSearch(terms)" [(ngModel)]="terms"></ion-searchbar>
 
 
   <ion-list *ngIf="terms">
 
 
-    <button color="danger" text-wrap ion-item *ngFor="let h of data?.holidays | search: terms, false" (click)="presentProfileModal(h)">
+    <button color="danger" text-wrap ion-item *ngFor="let h of holidays" (click)="presentProfileModal(h)">
 
       <h2>{{h.name}}</h2>
       <p>{{h.date}}</p>

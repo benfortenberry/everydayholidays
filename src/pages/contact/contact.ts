@@ -14,13 +14,16 @@ export class ContactPage {
 
 
   terms: string;
-  data: any;
+  holidays: any;
 
   constructor(public navCtrl: NavController, public tsProvider: TimeDateServiceProvider, public modalCtrl: ModalController) {
 
-    this.getData();
+
   }
 
+  doSearch(terms) {
+    this.getDataBySearch(terms)
+  }
 
   presentProfileModal(h) {
 
@@ -32,12 +35,13 @@ export class ContactPage {
   }
 
 
-  getData() {
-    this.tsProvider.getData()
+  getDataBySearch(terms) {
+    this.tsProvider.getDataBySearch(terms)
       .then(data => {
-        this.data = data;
+        this.holidays = data;
         // console.log(this.data);
       });
   }
+
 
 }
