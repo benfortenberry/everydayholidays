@@ -1987,6 +1987,12 @@
       "blurb": "Won't you be my neighbor?"
     },
     {
+      "date": "September 29",
+      "name": "Heart Day",
+      "keyword": "heart",
+      "blurb": "Take care of yourself and others"
+    },
+    {
       "date": "September 30",
       "name": "Hot Mulled Cider Day",
       "keyword": "cider",
@@ -2503,7 +2509,7 @@
     {
       "date": "December 12",
       "name": "Poinsettia Day",
-      "keyword": "Poinsettia",
+      "keyword": "poinsettia",
       "blurb": "One ranch in California grows over 70% of all Poinsettias purchased in the United States"
     },
     {

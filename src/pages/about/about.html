@@ -9,9 +9,11 @@
 
 <ion-content>
 
+  <div class="spin" text-center *ngIf="!isLoaded">
+    <ion-spinner color="danger" text-center name="crescent"></ion-spinner>
+  </div>
 
-
-  <ion-list>
+  <ion-list *ngIf="isLoaded">
 
     <div *ngFor="let h of data?.holidays; let i=index" #listView>
       <ion-item-divider *ngIf="!h.date" id="{{h.name}}" class="{{h.name}}" color="light">&nbsp;{{h.name}}</ion-item-divider>

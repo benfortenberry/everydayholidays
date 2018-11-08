@@ -24,9 +24,10 @@ export class HomePage {
 
   }
 
-  goToAll() {
-    this.navCtrl.push(AboutPage)
-  }
+  // goToAll() {
+  //   this.tsProvider.goToCurrentMonth = true;
+  //   this.navCtrl.push(AboutPage)
+  // }
 
   addToDate() {
     this.plusMinus++;
@@ -58,6 +59,15 @@ export class HomePage {
     this.getDataByDate(this.date);
   }
 
+  swiped(e) {
+    console.log(e);
+
+    switch (e.offsetDirection) {
+      case 2: this.addToDate(); break;
+      case 4: this.subtractFromDate(); break;
+      default: break;
+    }
+  }
   addToCalendar(h) {
     var builtDate = h.date + " " + moment().year();
 

@@ -14,6 +14,9 @@ import * as moment from 'moment';
 export class AboutPage {
 
   data: any;
+  isLoaded: boolean = false;
+
+  ranOnce: boolean = false;
 
 
   constructor(public navCtrl: NavController, public myElement: ElementRef, public tsProvider: TimeDateServiceProvider, public modalCtrl: ModalController) {
@@ -49,22 +52,20 @@ export class AboutPage {
     let profileModal = this.modalCtrl.create(DetailPage, { holiday: h }, myModalOptions);
     profileModal.present();
   }
-  ionViewDidEnter() {
-    // console.log(document.getElementById(moment().format('M')))
-  }
-  show() {
-    // console.log(document.getElementById(moment().format('M')))
-  }
-  public ngAfterViewChecked(): void {
-    /* need _canScrollDown because it triggers even if you enter text in the textarea */
-    let element = document.getElementById(moment().format('MMMM'));
-    //console.log(element)
 
-    if (element)
-      element.scrollIntoView({ block: 'start', behavior: 'instant' })
-    // if ( this._canScrollDown() ) {
-    //     this.scrollDown();
-    // }       
+  public ngAfterViewChecked(): void {
+    console.log('ran')
+    if (this.tsProvider.goToCurrentMonth) {
+      let element = document.getElementById(moment().format('MMMM'));
+
+      if (element) {
+        element.scrollIntoView({ block: 'start', behavior: 'instant' })
+        this.tsProvider.goToCurrentMonth = false;
+      }
+
+    }
+
+
   }
 
   getData() {
@@ -72,7 +73,7 @@ export class AboutPage {
       .then(data => {
         this.data = data;
 
-
+        this.isLoaded = true;
         // let element = document.getElementById(moment().format('M'));
         // console.log(element)
         // let elem: Element = document.getElementById("July")

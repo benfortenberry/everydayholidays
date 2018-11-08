@@ -1,6 +1,6 @@
 {
   "name": "Everyday Holidays",
-  "version": "4",
+  "version": "9",
   "author": "Thumbs Up Solutions",
   "homepage": "http://thumbsupsolutions.com/",
   "private": true,
@@ -21,7 +21,7 @@
     "@angular/http": "^4.3.4",
     "@angular/platform-browser": "^4.3.4",
     "@angular/platform-browser-dynamic": "^4.3.4",
-    "@ionic-native/calendar": "^4.9.0",
+    "@ionic-native/calendar": "^4.10.1",
     "@ionic-native/core": "4.8.0",
     "@ionic-native/screen-orientation": "^4.9.1",
     "@ionic-native/social-sharing": "^4.9.0",
@@ -74,7 +74,7 @@
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-calendar": {
-        "CALENDAR_USAGE_DESCRIPTION": "This app uses your calendar"
+        "CALENDAR_USAGE_DESCRIPTION": "Everyday Holidays uses your calendar to remind you about upcoming holidays"
       },
       "cordova-plugin-x-socialsharing": {},
       "cordova-plugin-screen-orientation": {},

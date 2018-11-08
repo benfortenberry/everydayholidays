@@ -4,24 +4,24 @@
       <div center text-center style="padding-top:10px;">
         <ion-grid center text-center>
           <ion-row center text-center>
-            <ion-col col-3>
+            <!-- <ion-col col-3>
               <button style="margin-top:-5px" (click)="subtractFromDate()" ion-button outline round small icon-end color="danger">
 
                 <ion-icon name="arrow-back"></ion-icon>
               </button>
-            </ion-col>
-            <ion-col col-6>
-              <div (click)="goToAll()">
+            </ion-col> -->
+            <ion-col col-12>
+              <div>
                 {{date}}
               </div>
             </ion-col>
-            <ion-col col-3>
+            <!-- <ion-col col-3>
               <button style="margin-top:-5px" (click)="addToDate()" ion-button outline round small icon-end color="danger">
 
                 <ion-icon name="arrow-forward"></ion-icon>
 
               </button>
-            </ion-col>
+            </ion-col> -->
           </ion-row>
         </ion-grid>
       </div>
@@ -32,7 +32,7 @@
 
 <ion-content color="light">
 
-  <ion-card color="danger" *ngFor="let h of holidays  ">
+  <ion-card color="danger" *ngFor="let h of holidays  " (swipe)="swiped($event)">
 
     <ion-grid>
       <ion-row>
@@ -53,11 +53,13 @@
             <ion-buttons>
               <button ion-button small round icon-start (click)="share(h)">
                 <ion-icon name="share"></ion-icon>
-                &nbsp;Share</button>
+                &nbsp;Share
+              </button>
 
               <button color="orange" ion-button small round icon-start (click)="addToCalendar(h)">
                 <ion-icon name="add-circle"></ion-icon>
-                &nbsp;Add Calendar</button>
+                &nbsp;Add Calendar
+              </button>
             </ion-buttons>
 
           </ion-card-content>
