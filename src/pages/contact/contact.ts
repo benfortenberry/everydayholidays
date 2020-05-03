@@ -39,7 +39,6 @@ export class ContactPage {
     this.tsProvider.getDataBySearch(terms)
       .then(data => {
         this.holidays = data;
-        // console.log(this.data);
       });
   }
 

@@ -1,6 +1,4 @@
 import { NgModule } from '@angular/core';
-import { SearchPipe } from './search/search';
-import { TodayPipe } from './today/today';
 @NgModule({
 	declarations:
 		[

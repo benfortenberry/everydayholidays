@@ -1,9 +1,8 @@
-import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
 import { TimeDateServiceProvider } from './../../providers/time-date-service/time-date-service';
 import { Calendar } from '@ionic-native/calendar';
-import * as moment from 'moment';
+import moment from 'moment';
 import { SocialSharing } from '@ionic-native/social-sharing';
 
 
@@ -40,7 +39,6 @@ export class DetailPage {
     this.tsProvider.getDataByName(name)
       .then(data => {
         this.holidays = data;
-        //   console.log(this.data);
       });
   }
 
@@ -65,7 +63,6 @@ export class DetailPage {
 
     }
 
-    //  console.log(momentizedDate.toString())
     this.calendar.createEventInteractively(this.hName, '', '', momentizedDate.toDate(), momentizedDate.add(1, 'd').toDate());
 
   }

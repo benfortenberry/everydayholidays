@@ -1,8 +1,7 @@
-import { AboutPage } from './../about/about';
 import { TimeDateServiceProvider } from './../../providers/time-date-service/time-date-service';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import * as moment from 'moment';
+import moment from 'moment';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { Calendar } from '@ionic-native/calendar';
 
@@ -47,7 +46,6 @@ export class HomePage {
     this.tsProvider.getDataByDate(date)
       .then(data => {
         this.holidays = data;
-        //  console.log(this.data);
       });
   }
 
@@ -60,7 +58,6 @@ export class HomePage {
   }
 
   swiped(e) {
-    console.log(e);
 
     switch (e.offsetDirection) {
       case 2: this.addToDate(); break;
@@ -80,7 +77,6 @@ export class HomePage {
 
     }
 
-    //console.log(momentizedDate.toString())
     this.calendar.createEventInteractively(h.name, '', '', momentizedDate.toDate(), momentizedDate.add(1, 'd').toDate());
 
   }

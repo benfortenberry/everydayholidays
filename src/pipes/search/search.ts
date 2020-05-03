@@ -10,7 +10,6 @@ export class SearchPipe implements PipeTransform {
     if (!items) return [];
     if (!terms) return items;
 
-    // console.log(items)
     terms = terms.toLowerCase();
     return items.filter(it => {
 
