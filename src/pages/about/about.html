@@ -18,17 +18,12 @@
     <div *ngFor="let h of data?.holidays; let i=index" #listView>
       <ion-item-divider *ngIf="!h.date" id="{{h.name}}" class="{{h.name}}" color="light">&nbsp;{{h.name}}</ion-item-divider>
       <button *ngIf="h.date" color="danger" id="{{h.name}}" text-wrap ion-item (click)="presentProfileModal(h) ">
-        <!-- <img src="assets/imgs/{{h.keyword}}.jpg" /> -->
 
         <h2>{{h.name}}</h2>
-        <!-- <p>{{h.blurb}}</p> -->
         <p>{{h.date}}</p>
       </button>
     </div>
 
-
-
   </ion-list>
-
 
 </ion-content>

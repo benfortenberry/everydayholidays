@@ -4,24 +4,12 @@
       <div center text-center style="padding-top:10px;">
         <ion-grid center text-center>
           <ion-row center text-center>
-            <!-- <ion-col col-3>
-              <button style="margin-top:-5px" (click)="subtractFromDate()" ion-button outline round small icon-end color="danger">
-
-                <ion-icon name="arrow-back"></ion-icon>
-              </button>
-            </ion-col> -->
             <ion-col col-12>
               <div>
                 {{date}}
               </div>
             </ion-col>
-            <!-- <ion-col col-3>
-              <button style="margin-top:-5px" (click)="addToDate()" ion-button outline round small icon-end color="danger">
-
-                <ion-icon name="arrow-forward"></ion-icon>
-
-              </button>
-            </ion-col> -->
+           
           </ion-row>
         </ion-grid>
       </div>
@@ -47,7 +35,7 @@
             <p>{{h.blurb}}</p>
           </ion-card-header>
         </ion-col>
-        <ion-col col-12 col-sm>
+        <ion-col col-12 col-sm *ngIf="!isApp">
           <ion-card-content>
 
             <ion-buttons>

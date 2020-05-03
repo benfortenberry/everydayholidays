@@ -16,7 +16,7 @@ export class DetailPage {
 
   hName: string;
   hDate: string;
-
+isApp: any;
   holidays: any;
 
   constructor(public navCtrl: NavController,
@@ -29,7 +29,7 @@ export class DetailPage {
     this.hDate = holiday.date;
     this.getDataByName(this.hName);
 
-
+    this.isApp = document.URL.startsWith('http');
 
   }
 

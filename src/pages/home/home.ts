@@ -15,6 +15,8 @@ export class HomePage {
 
   date: any;
 
+  isApp: any;
+
   plusMinus: number = 0;
 
   constructor(public navCtrl: NavController, public tsProvider: TimeDateServiceProvider, private socialSharing: SocialSharing, private calendar: Calendar) {
@@ -22,11 +24,6 @@ export class HomePage {
 
 
   }
-
-  // goToAll() {
-  //   this.tsProvider.goToCurrentMonth = true;
-  //   this.navCtrl.push(AboutPage)
-  // }
 
   addToDate() {
     this.plusMinus++;
@@ -55,6 +52,7 @@ export class HomePage {
   ionViewDidEnter() {
     this.date = moment().format("MMMM D");
     this.getDataByDate(this.date);
+    this.isApp = document.URL.startsWith('http');
   }
 
   swiped(e) {
